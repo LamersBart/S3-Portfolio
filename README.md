@@ -8,18 +8,26 @@
 <p align="center"><img src="https://c.tenor.com/_DOBjnGspYAAAAAC/code-coding.gif"/></p>
 
 ## Table of contents
-* ### [1. Introduction](#introduction)
-* ### [2. Learning Outcomes](#learning-outcomes)
-* ### [3. Research](#research)
-    * [3.1 Subtopic](#subtopic)
-    * [3.2 Subtopic](#subtopic-1)
-    * [3.3 Subtopic](#subtopic-2)
-* ### [4. Research](#research)    
+* [1. Introduction](#introduction)
+* [2. Learning Outcomes](#learning-outcomes)
+* [3. Research](#research)
+    * 3.1 Subtopic
+    * 3.2 Subtopic
+    * 3.3 Subtopic
+* [4. Individual Project (Chefresh)](#individual-project-chefresh)
+    * 4.1 Project description
+    * 4.2 User stories
+    * 4.3 Requirements
+    * 4.4 Minimal API or REST API?
+* [5. Group Project (Ordinner)](#group-project-ordinner)
+    * 5.1 Project description
         
 ## Introduction
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-## Learning Outcomes
+<details>
+<summary><h2>Learning Outcomes</h2></summary>
+
 <table>
   <tr>
     <th>#</th>
@@ -137,8 +145,11 @@ Business processes needed for the success of your software development project (
   </tr>
 </table>
 
+</details>
 
-## Research
+<details>
+<summary><h2>Research</h2></summary>
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ### Subtopic
@@ -150,11 +161,45 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ### Subtopic
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-## Individual Project (Chefresh)
+</details>
+
+<details>
+<summary><h2>Individual Project (Chefresh)</h2></summary>
+
+### Project description
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-## Group Project (Ordinner)
+### User stories
+De user stories heb ik beschreven bij de [issues](https://github.com/LamersBart/Semester3/issues).
+</br>
+Ik heb voor de user stories het volgende format gebruikt [^1]:
+* Als: (klant)
+* Wil ik: (beschrijving van datgene dat ontwikkeld moet worden)
+* Zodat ik: (beschrijving van de reden waarom dat ontwikkeld moet worden)
+
+### Requirements
+* Front-end language: ReactJS
+* Back-end language: .NET 6
+* Backend bestaat uit een API zodat de app ook door derden kan worden geïmplementeerd
+* Externe API gebruik (spoonacular API etc)
+* Database voor het bijhouden van producten en voorraad
+
+### Minimal API or REST API?
+Chefresh versie 1 is een MVC applicatie met 3-lagen sturctuur. Dit was nodig om de leeruitkomsten uit semester 2 aan te tonen. Nu wil ik de Chefresh app verder optimalisren en ga ik een API maken die met een losse front-end communiceerd. Hiervoor heb ik onderzoek gedaan naar een minimal API (zonder controllers) of een standaard API (met controllers).
+
+</details>
+
+<details>
+<summary><h2>Group Project (Ordinner)</h2></summary>
+
+### Project description
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-## Reflection
+</details>
+
+<details>
+<summary><h2>Reflection</h2></summary>
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+</details>
