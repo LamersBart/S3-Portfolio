@@ -145,6 +145,9 @@ Business processes needed for the success of your software development project (
     </td>
   </tr>
 </table>
+
+[⬆️ Back to Table of Contents](#table-of-contents)
+
 </details>
 
 ## Research
@@ -163,6 +166,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ### Subtopic
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
+[⬆️ Back to Table of Contents](#table-of-contents)
+  
 </details>
 
 ## Individual Project (Chefresh)
@@ -191,6 +196,8 @@ Ik heb voor de user stories het volgende format gebruikt [^1]:
 ### Minimal API or REST API?
 Chefresh versie 1 is een MVC applicatie met 3-lagen sturctuur. Dit was nodig om de leeruitkomsten uit semester 2 aan te tonen. Nu wil ik de Chefresh app verder optimalisren en ga ik een API maken die met een losse front-end communiceerd. Hiervoor heb ik onderzoek gedaan naar een minimal API (zonder controllers) of een standaard API (met controllers).
 
+[⬆️ Back to Table of Contents](#table-of-contents)
+
 </details>
 
 ## Group Project (Ordinner)
@@ -201,6 +208,8 @@ Chefresh versie 1 is een MVC applicatie met 3-lagen sturctuur. Dit was nodig om 
 ### Project description
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
+[⬆️ Back to Table of Contents](#table-of-contents)  
+  
 </details>
 
 ## Reflection
@@ -210,7 +219,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
+[⬆️ Back to Table of Contents](#table-of-contents)  
+  
 </details>
 
-## Bronvermelding
+### Bronvermelding
 [^1]: [https://agilescrumgroup.nl/wat-is-een-user-story/](https://agilescrumgroup.nl/wat-is-een-user-story/)
