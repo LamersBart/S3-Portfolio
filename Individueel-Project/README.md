@@ -10,18 +10,19 @@
    * #### [Project beschrijving](#project-beschrijving-1)
    * #### [User stories](#user-stories-1)
    * #### [Requirements](#requirements-1)
+   * #### [Minimal API of REST API?](#minimal-api-of-rest-api-1)
    * #### [Bronvermelding](#bronvermelding-1)
 
 <br>
 
 ## Documentatie
 ### Project beschrijving
-Het idee van SwipeFlix is een soort Tinder app alleen dan voor films en series. Oftwel je geeft in het begin je voorkeuren aan en op basis daarvan krijg je films en series voorgesteld die je naar links of rechts kunt swipen of markeren als bekeken. Hierdoor creeër je een nieuwe kijklijst. Daarnaast bied de app ook een overizicht van je favoriete films en series.
+
 
 <br>
 
 ### User stories
-De user stories heb ik beschreven bij de [issues](https://github.com/LamersBart/Semester3/issues), met de tag "IP".
+De user stories heb ik beschreven bij de [issues](https://github.com/LamersBart/Semester3/issues).
 </br>
 Ik heb voor de user stories het volgende format gebruikt [^1]:
 * Als: (klant)
@@ -31,11 +32,16 @@ Ik heb voor de user stories het volgende format gebruikt [^1]:
 <br>
 
 ### Requirements
-* Front-end language: ReactJS / Vue.JS
-* Back-end language: .NET / Java
+* Front-end language: ReactJS
+* Back-end language: .NET 6
 * Backend bestaat uit een API zodat de app ook door derden kan worden geïmplementeerd
-* Externe API gebruik (IMDB etc)
-* Database voor o.a. kijklijsten en favorieten
+* Externe API gebruik (spoonacular API etc)
+* Database voor het bijhouden van producten en voorraad
+
+<br>
+
+### Minimal API of REST API?
+Chefresh versie 1 is een MVC applicatie met 3-lagen sturctuur. Dit was nodig om de leeruitkomsten uit semester 2 aan te tonen. Nu wil ik de Chefresh app verder optimalisren en ga ik een API maken die met een losse front-end communiceerd. Hiervoor heb ik onderzoek gedaan naar een minimal API (zonder controllers) of een standaard API (met controllers).
 
 <br>
 
