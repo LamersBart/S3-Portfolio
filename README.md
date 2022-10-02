@@ -21,11 +21,17 @@
     * 4.4 Minimal API or REST API?
 * [5. Group Project (Ordinner)](#group-project-ordinner)
     * 5.1 Project description
+    * 5.2 Front-end
+    * 5.3 Back-end
         
-## Introduction
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## 1. Introduction
 
-## Learning Outcomes
+<details>
+<summary> </summary>
+In this document I describe the learning outcomes, 
+</details>
+
+## 2. Learning Outcomes
 
 <details>
 <summary> </summary>
@@ -146,39 +152,39 @@ Business processes needed for the success of your software development project (
   </tr>
 </table>
 
-[⬆️ Back to Table of Contents](#table-of-contents)
+[⬆️ Back to Table of contents](#table-of-contents)
 
 </details>
 
-## Research
+## 3. Research
 
 <details>
 <summary> </summary>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-### Subtopic
+### 3.1 Subtopic
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-### Subtopic
+### 3.2 Subtopic
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-### Subtopic
+### 3.3 Subtopic
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-[⬆️ Back to Table of Contents](#table-of-contents)
+[⬆️ Back to Table of contents](#table-of-contents)
   
 </details>
 
-## Individual Project (Chefresh)
+## 4. Individual Project (Chefresh)
 
 <details>
 <summary> </summary>
 
-### Project description
+### 4.1 Project description
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-### User stories
+### 4.2 User stories
 De user stories heb ik beschreven bij de [issues](https://github.com/LamersBart/Semester3/issues).
 </br>
 Ik heb voor de user stories het volgende format gebruikt [^1]:
@@ -186,40 +192,46 @@ Ik heb voor de user stories het volgende format gebruikt [^1]:
 * Wil ik: (beschrijving van datgene dat ontwikkeld moet worden)
 * Zodat ik: (beschrijving van de reden waarom dat ontwikkeld moet worden)
 
-### Requirements
+### 4.3 Requirements
 * Front-end language: ReactJS
 * Back-end language: .NET 6
 * Backend bestaat uit een API zodat de app ook door derden kan worden geïmplementeerd
 * Externe API gebruik (spoonacular API etc)
 * Database voor het bijhouden van producten en voorraad
 
-### Minimal API or REST API?
+### 4.4 Minimal API or REST API?
 Chefresh versie 1 is een MVC applicatie met 3-lagen sturctuur. Dit was nodig om de leeruitkomsten uit semester 2 aan te tonen. Nu wil ik de Chefresh app verder optimalisren en ga ik een API maken die met een losse front-end communiceerd. Hiervoor heb ik onderzoek gedaan naar een minimal API (zonder controllers) of een standaard API (met controllers).
 
-[⬆️ Back to Table of Contents](#table-of-contents)
+[⬆️ Back to Table of contents](#table-of-contents)
 
 </details>
 
-## Group Project (Ordinner)
+## 5. Group Project (Ordinner)
 
 <details>
 <summary> </summary>
 
-### Project description
+### 5.1 Project description
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  
+### 5.2 Front-end
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-[⬆️ Back to Table of Contents](#table-of-contents)  
+### 5.3 Back-end
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+[⬆️ Back to Table of contents](#table-of-contents)  
   
 </details>
 
-## Reflection
+## 6. Reflection
 
 <details>
 <summary> </summary>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-[⬆️ Back to Table of Contents](#table-of-contents)  
+[⬆️ Back to Table of contents](#table-of-contents)  
   
 </details>
 
