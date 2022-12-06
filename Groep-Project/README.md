@@ -3,9 +3,9 @@
   </br>
   Documents and project
 </h1>
-</br>
+<br/>
 
-<p align="center"><img src="https://c.tenor.com/_DOBjnGspYAAAAAC/code-coding.gif"/></p>
+<p align="center"><img alt="" src="https://c.tenor.com/_DOBjnGspYAAAAAC/code-coding.gif"/></p>
 
 ## Table of contents
 * ### [Main Topic 1](#main-topic-1)

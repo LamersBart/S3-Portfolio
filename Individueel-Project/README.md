@@ -1,7 +1,7 @@
 <div align="center">
    <h1>Individueel Project</h1>
-   </br>
-   <img src="https://c.tenor.com/_DOBjnGspYAAAAAC/code-coding.gif" />
+   <br/>
+   <img alt="" src="https://c.tenor.com/_DOBjnGspYAAAAAC/code-coding.gif" />
 </div> 
 
 
