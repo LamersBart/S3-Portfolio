@@ -248,7 +248,7 @@ So nice for our planet 🌍
 ### 4.2 User stories
 De user stories heb ik beschreven bij de [issues](https://github.com/LamersBart/S3-Portfolio/issues).
 </br>
-Ik heb voor de user stories het volgende format gebruikt [^1]:
+Ik heb voor de user stories het volgende format gebruikt [^1]: [bron: agilescrumgroup](https://agilescrumgroup.nl/wat-is-een-user-story/](https://agilescrumgroup.nl/wat-is-een-user-story/):
 * Als: (klant)
 * Wil ik: (beschrijving van datgene dat ontwikkeld moet worden)
 * Zodat ik: (beschrijving van de reden waarom dat ontwikkeld moet worden)
@@ -336,7 +336,10 @@ Ik weet nu wat de beste manier is om een JWT-token te gebruiken en hoe ik op die
 </details>
 
 ### Bronvermelding
-[^1]: [https://agilescrumgroup.nl/wat-is-een-user-story/](https://agilescrumgroup.nl/wat-is-een-user-story/)
-[^2]: [https://tkacz.pro/how-to-securely-store-jwt-tokens/]
-[^3]: [https://www.blinkingcaret.com/2018/07/18/secure-an-asp-net-core-web-api-using-cookies/]
-[^4]: [https://vivekkrishnavk.medium.com/using-jwts-as-http-only-cookies-with-react-js-a301991fdfa6]
+
+[//]: # ()
+[//]: # ([^2]: [https://tkacz.pro/how-to-securely-store-jwt-tokens/])
+
+[//]: # ([^3]: [https://www.blinkingcaret.com/2018/07/18/secure-an-asp-net-core-web-api-using-cookies/])
+
+[//]: # ([^4]: [https://vivekkrishnavk.medium.com/using-jwts-as-http-only-cookies-with-react-js-a301991fdfa6])
