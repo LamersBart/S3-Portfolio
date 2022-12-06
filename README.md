@@ -11,23 +11,25 @@
 <p align="center"><img alt="" src="https://c.tenor.com/_DOBjnGspYAAAAAC/code-coding.gif"/></p>
 
 ## Inhoudsopgave
-* [1. Introductie](#introductie)
-* [2. Leeruitkomsten](#leeruitkomsten)
-* [3. Onderzoek](#onderzoek)
+* [1. Introductie](#1-introductie)
+* [2. Leeruitkomsten](#2-leeruitkomsten)
+* [3. Onderzoek](#3-onderzoek)
     * 3.1 Beveiliging
     * 3.2 Agile
     * 3.3 Culturele verschillen
-* [4. Individueel project (Chefresh)](#individueel-project-chefresh)
+* [4. Individueel project (Chefresh)](#4-individueel-project-chefresh)
     * 4.1 Project beschrijving
     * 4.2 User stories
     * 4.3 Requirements
     * 4.4 Minimal API or REST API?
     * 4.5 Frond-end
     * 4.6 Back-end
-* [5. Groepsproject (Ordinner)](#groepsproject-ordinner)
+* [5. Groepsproject (Ordinner)](#5-groepsproject-ordinner)
     * 5.1 Project beschrijving
     * 5.2 Front-end
     * 5.3 Back-end
+
+* [6. Reflectie](#6-reflectie)
         
 ## 1. Introductie
 
@@ -266,7 +268,7 @@ Omdat ik voornamelijk bezig ben geweest met de front-end is er niet een specifie
   
 </details>
 
-## 6. Reflection
+## 6. Reflectie
 
 <details>
 <summary> </summary>
