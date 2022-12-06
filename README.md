@@ -62,7 +62,7 @@ In this document I describe the learning outcomes,
       Full-stack: You design and build a full stack application using commonly accepted front end (Javascript-based framework) and back end techniques (e.g. Object Relational Mapping) choosing and implementing relevant communication protocols and addressing asynchronous communication issues.
     </td>
   </tr>
-    <tr>
+  <tr>
     <td>
       2
     </td>
@@ -72,9 +72,8 @@ In this document I describe the learning outcomes,
     <td>
       Tooling and methodology: Carry out, monitor and report on unit integration, regression and system tests, with attention for security and performance aspects, as well as applying static code analysis and code reviews.
     </td>
-    </tr>
-    </tr>
-    <tr>
+  </tr>
+  <tr>
     <td>
       3
     </td>
@@ -85,8 +84,7 @@ In this document I describe the learning outcomes,
       Choose: You are aware of the most popular agile methods and their underlying agile principles. Your choice of a method is motivated and based on well-defined selection criteria and context analyses.
     </td>
   </tr>
-    </tr>
-    <tr>
+  <tr>
     <td>
       4
     </td>
@@ -97,8 +95,7 @@ In this document I describe the learning outcomes,
       Design and implement: You design a release process and implement a continuous integration and deployment solution (using e.g. Gitlab CI and Docker).
     </td>
   </tr>
-    </tr>
-    <tr>
+  <tr>
     <td>
       5
     </td>
@@ -112,8 +109,7 @@ In this document I describe the learning outcomes,
       Take into account: Adapt your communication, working, and behavior styles to reflect project stakeholders from different cultures; Address one of the standard Programming Ethical Guidelines (e.g., ACM Code of Ethics and Professional Conduct) in your work.
     </td>
   </tr>
-    </tr>
-    <tr>
+  <tr>
     <td>
       6
     </td>
@@ -124,8 +120,7 @@ In this document I describe the learning outcomes,
       Multiple types of test techniques: You apply user acceptance testing and stakeholder feedback to validate the quality of the requirements. You evaluate the quality of the design (e.g., by testing or prototyping) taking into account the formulated quality properties like security and performance.
     </td>
   </tr>
-    </tr>
-    <tr>
+  <tr>
     <td>
       7
     </td>
@@ -137,16 +132,15 @@ In this document I describe the learning outcomes,
       <br/>
       <br/>
       Related: Business processes during which the software that you are developing will be used (business processes that the software must support by fully or partially automating them).
-<br/>
-<br/>
-or
-<br/>
-<br/>
-Business processes needed for the success of your software development project (e.g., product release, market release, financial assurance).
+      <br/>
+      <br/>
+      or
+      <br/>
+      <br/>
+      Business processes needed for the success of your software development project (e.g., product release, market release, financial assurance).
     </td>
   </tr>
-    </tr>
-    <tr>
+  <tr>
     <td>
       8
     </td>
@@ -159,7 +153,7 @@ Business processes needed for the success of your software development project (
   </tr>
 </table>
 
-[⬆️ Terug naar inhoudsopgave](#table-of-contents)
+[⬆️ Terug naar inhoudsopgave](#inhoudsopgave)
 
 </details>
 
@@ -197,7 +191,7 @@ Chefresh is a app developed in C# with the use of a minimal-API backend and a Re
 
 Purpose of the app: <br/>
 Chefresh: the revolutionary inventory app that allows you to keep track of your products in the house by best before date!
-This way you will never be faced with surprises in the fridge again and you can prepare the tastiest dishes with food that needs to be consumed the fastest.
+This way you will never be faced with surprises in the fridge again, and you can prepare the tastiest dishes with food that needs to be consumed the fastest.
 So nice for our planet 🌍
 
 ### 4.2 User stories
@@ -225,19 +219,22 @@ De front-end van Chefresh is gemaakt in ReactJS i.c.m. bootstrap voor react.
 Ik had nog nooit eerder gewerkt met ReactJS dus het was een hele uitdaging om de web-app op de juiste manier te laten functioneren.
 In de frond-end maak ik gebruik van Axios voor het versturen van calls naar de back-end.
 
-In het begin liep ik tegen het probleem van cross-origin aan en dat mijn front-end daardoor niet kon communiceren met de back-end. Na wat aanpassingen in de back-end was dit probleem ook verholpen.
+In het begin liep ik tegen het probleem van cross-origin aan en dat mijn front-end daardoor niet kon communiceren met de back-end.
+Na wat aanpassingen in de back-end was dit probleem ook verholpen.
 
 
 ### 4.6 Back-end
-Ik heb dit semester opnieuw gekozen voor een backend in C# (.Net6). In het 2e semester heb ik ook al met C# (.Net6) gewerkt met een MVC-versie van Chefresh.
+Ik heb dit semester opnieuw gekozen voor een backend in C# (.Net6).
+In het 2e semester heb ik ook al met C# (.Net6) gewerkt met een MVC-versie van Chefresh.
 Omdat ik me meer wilde verdiepen in C# heb ik niet gekozen voor een standaard REST-API met controllers aangezien dit te makkelijk zou zijn met het ombouwen van de MVC-applicatie naar een API.
 Daarom heb ik gekozen voor een minimal-API, een API zonder controllers waarbij de endpoints worden aangemaakt in de program.cs.
 
-Omdat Chefresh voornamelijk bestaat uit CRUD-acties heeft een minimal-API als voordeel dat het compacter is dan een standaard API.
+Omdat Chefresh voornamelijk bestaat uit CRUD-acties heeft een minimal-API als voordeel dat het compacter is dan een standaard-API.
 Het was wel even zoeken hoe een minimal-API werkt omdat de documentatie en implementatie er van nog niet zo breed bekend is als de standaard versie van een API.
 
 Gaandeweg ben ik er achter gekomen dat naast de voordelen die een minimal-API met zich mee brengt er ook nadelen zijn.
-Zo is het niet mogelijk om een cookie aan te maken in een endpoint, maar uitsluitend in de middleware. Hierdoor heb ik de JWT-token niet als httpOnly-cookie kunnen meesturen en moest ik de token opslaan in de localstorage van de browser.
+Zo is het niet mogelijk om een cookie aan te maken in een endpoint, maar uitsluitend in de middleware.
+Hierdoor heb ik de JWT-token niet als httpOnly-cookie kunnen meesturen en moest ik de token opslaan in de localstorage van de browser.
 Meer hierover heb ik beschreven in mijn onderzoek naar veiligheid.
 
 [⬆️ Terug naar inhoudsopgave](#inhoudsopgave)
@@ -253,16 +250,23 @@ Met het groepsproject (GP) heb ik de volgende leeruitkomsten aangetoond:
 Leeruitkomsten 3, 6, 7 en 8
 
 ### 5.1 Project beschrijving
-Ordinner is een applicatie voor gebruik in de horeca. De app is voorzien van meerdere frond-ends en één back-end. Zo is er een front-end voor de restaurant gasten die via de web-app een bestelling kunnen plaatsen die vervolgens word doorgestuurd naar de front-end voor keuken en bar.
-Het was een hele uitdaging om alle requirements te verwezenlijken, maar met goed teamwork is het wel gelukt. De stakeholders zijn bij alle opleveringen erg enthousiast geweest over het opgeleverde werk, ze zijn in het hele process ook nauw betrokken geweest. 
+Ordinner is een applicatie voor gebruik in de horeca.
+De app is voorzien van meerdere frond-ends en één back-end.
+Zo is er een front-end voor de restaurantgasten die via de web-app een bestelling kunnen plaatsen die vervolgens - via de API - word doorgestuurd naar de front-end voor keuken en bar.
+Het was een hele uitdaging om alle requirements te verwezenlijken, maar met goed teamwork is het wel gelukt.
+De stakeholders zijn bij alle opleveringen erg enthousiast geweest over het opgeleverde werk, en zijn in het hele process ook nauw betrokken geweest. 
   
 ### 5.2 Front-end
 De front-end van Ordinner is geschreven in ReactJS, ik heb me samen met Britt voornamelijk ingespannen voor het front-end gedeelte van de app.
-De front-end is regelmatig aangepast op basis van nieuwe feedback van de stakeholders. Omdat we werken in het groepsproject met agile is het project eigenlijk nooit "af", maar is er altijd ruimte voor verbetering. Ik heb de samenwerking met Britt als erg prettig ervaren en we mogen bij zijn met het behaalde resultaat.
+De front-end is regelmatig aangepast op basis van nieuwe feedback van de stakeholders.
+Omdat we werken in het groepsproject met agile is het project eigenlijk nooit "af", maar is er altijd ruimte voor verbetering.
+Ik heb de samenwerking met Britt als erg prettig ervaren en we mogen bij zijn met het behaalde resultaat.
 
 ### 5.3 Back-end
 De back-end van Ordinner is geschreven in JAVA spring-boot en er is gebruik gemaakt van {ORM} voor het genereren van de database.
-Omdat ik voornamelijk bezig ben geweest met de front-end is er niet een specifiek item uit de back-end wat ik heb gemaakt. Wel is er veel overleg geweest tussen Maarten en Janine (team back-end) om nieuwe endpoints te maken die vervolgens gebruikt zouden worden in de front-end. Ook deze samenerweking is prettig velopen.
+Omdat ik voornamelijk bezig ben geweest met de front-end is er niet een specifiek item uit de back-end wat ik heb gemaakt.
+Wel is er veel overleg geweest tussen Maarten en Janine (team back-end) om nieuwe endpoints te maken die vervolgens gebruikt zouden worden in de front-end.
+Ook deze samenwerking is prettig verlopen.
 
 [⬆️ Terug naar inhoudsopgave](#inhoudsopgave)  
   
@@ -272,7 +276,7 @@ Omdat ik voornamelijk bezig ben geweest met de front-end is er niet een specifie
 
 <details>
 <summary> </summary>
-Ik heb het derde semester als zeer leerzaam ervaren. Ik heb veel plezier gehad met het groepsproject, mede door het fijne team maar ook de leuke opdracht.
+Ik heb het derde semester als zeer leerzaam ervaren. Ik heb veel plezier gehad met het groepsproject, onder andere door het fijne team maar ook de leuke opdracht.
 Daarnaast heb ik veel geleerd en toegepast, denk aan ReactJS (zowel bij IP als GP) en het gebruik van een minimal-API. Ook de onderzoeken naar beveiliging hebben me veel gebracht.
 Ik weet nu wat de beste manier is om een JWT-token te gebruiken en hoe ik op die manier een veilige API kan bouwen. Dit was mijn nog niet gelukt in semester 1 en 2.
 
