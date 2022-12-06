@@ -12,7 +12,7 @@
 
 ## Inhoudsopgave
 * [1. Introductie](#1-introductie)
-* [2. Leeruitkomsten (English)](#2-leeruitkomsten)
+* [2. Leeruitkomsten (English)](#2-leeruitkomsten-english)
 * [3. Onderzoek](#3-onderzoek)
     * 3.1 Beveiliging
       * 3.1.1 Welke manieren zijn er om JWT-tokens te bewaren?
@@ -171,8 +171,7 @@ Door middel van onderzoek heb ik de volgende leeruitkomsten aangetoond:
 Leeruitkomsten 2, 3 en 5
 
 ### 3.1 Beveiliging
-**Best practices for storing a JWT in my project**
-
+**Best practices for storing a JWT in my project:** <br/>
 Voor mijn project (.NET 6 Minimal API) API -> (ReactJS) Front-end maak ik gebruik van JWT-tokens voor authenticatie.
 Deze tokens moeten ergens worden opgeslagen, dit kan echter op verschillende manieren.
 Dit ben ik verder gaan uitzoeken door er onderzoek naar te doen. 
@@ -209,7 +208,7 @@ Maar ook cookies bevatten kwetsbaarheden zoals CSRF-attacks. Het is dus de vraag
 Het bewaren van een JWT-token in een httpOnly cookie is het veiligst. Ik heb daarom ook gekeken of ik dit kan toepassen in mijn persoonlijk project.
 Echter, omdat ik werk met een minimal-API kan ik alleen cookies aanmaken in de "middleware" en niet in mijn endpoints.
 Het probleem is dus dat er dan al een JWT-token moet worden aangemaakt voordat een gebruiker zich kan authentiseren,
-hierdoor ben ik genoodzaakt ben gebruik te maken van localstorage, omdat mijn applicatie wel persistente opslag van de token vereist.
+hierdoor ben ik genoodzaakt ben gebruik te maken van localstorage, omdat mijn applicatie wel persistente opslag van de token vereist. [^2], [^3], [^4]
 
 ### 3.2 Agile
 
@@ -338,3 +337,6 @@ Ik weet nu wat de beste manier is om een JWT-token te gebruiken en hoe ik op die
 
 ### Bronvermelding
 [^1]: [https://agilescrumgroup.nl/wat-is-een-user-story/](https://agilescrumgroup.nl/wat-is-een-user-story/)
+[^2]: [https://tkacz.pro/how-to-securely-store-jwt-tokens/]
+[^3]: [https://www.blinkingcaret.com/2018/07/18/secure-an-asp-net-core-web-api-using-cookies/]
+[^4]: [https://vivekkrishnavk.medium.com/using-jwts-as-http-only-cookies-with-react-js-a301991fdfa6]
