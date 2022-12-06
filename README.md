@@ -1,37 +1,42 @@
 <h1 align="center">
   Semester 3
-  </br>
-  Documents and project
+  <br/>
+  Portfolio
 </h1>
+<h3 align="center">
+  Bart Lamers
+</h3>
 <br/>
 
 <p align="center"><img alt="" src="https://c.tenor.com/_DOBjnGspYAAAAAC/code-coding.gif"/></p>
 
-## Table of contents
-* [1. Introduction](#introduction)
-* [2. Learning Outcomes](#learning-outcomes)
-* [3. Research](#research)
+## Inhoudsopgave
+* [1. Introductie](#introductie)
+* [2. Leeruitkomsten](#leeruitkomsten)
+* [3. Onderzoek](#onderzoek)
     * 3.1 Beveiliging
     * 3.2 Agile
-    * 3.3 Cultural Differences
-* [4. Individual Project (Chefresh)](#individual-project-chefresh)
-    * 4.1 Project description
+    * 3.3 Culturele verschillen
+* [4. Individueel project (Chefresh)](#individueel-project-chefresh)
+    * 4.1 Project beschrijving
     * 4.2 User stories
     * 4.3 Requirements
     * 4.4 Minimal API or REST API?
-* [5. Group Project (Ordinner)](#group-project-ordinner)
-    * 5.1 Project description
+    * 4.5 Frond-end
+    * 4.6 Back-end
+* [5. Groepsproject (Ordinner)](#groepsproject-ordinner)
+    * 5.1 Project beschrijving
     * 5.2 Front-end
     * 5.3 Back-end
         
-## 1. Introduction
+## 1. Introductie
 
 <details>
 <summary> </summary>
 In this document I describe the learning outcomes, 
 </details>
 
-## 2. Learning Outcomes
+## 2. Leeruitkomsten
 
 <details>
 <summary> </summary>
@@ -152,11 +157,11 @@ Business processes needed for the success of your software development project (
   </tr>
 </table>
 
-[⬆️ Back to Table of contents](#table-of-contents)
+[⬆️ Terug naar inhoudsopgave](#table-of-contents)
 
 </details>
 
-## 3. Research
+## 3. Onderzoek
 
 <details>
 <summary> </summary>
@@ -164,22 +169,20 @@ Door middel van onderzoek heb ik de volgende leeruitkomsten aangetoond:
 <br/>
 Leeruitkomsten 2, 3 en 5
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
 ### 3.1 Beveiliging
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
 
 ### 3.2 Agile
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-### 3.3 Cultural Differences
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-[⬆️ Back to Table of contents](#table-of-contents)
+### 3.3 Culturele verschillen
+
+
+[⬆️ Terug naar inhoudsopgave](#inhoudsopgave)
   
 </details>
 
-## 4. Individual Project (Chefresh)
+## 4. Individueel Project (Chefresh)
 
 <details>
 <summary> </summary>
@@ -187,7 +190,7 @@ Met mijn individuele project (IP) heb ik de volgende leeruitkomsten aangetoond:
 <br/>
 Leeruitkomsten 1, 2, 4 en 6
 
-### 4.1 Project description
+### 4.1 Project beschrijving
 Chefresh is a app developed in C# with the use of a minimal-API backend and a ReactJS front-end.
 
 Purpose of the app: <br/>
@@ -196,7 +199,7 @@ This way you will never be faced with surprises in the fridge again and you can 
 So nice for our planet 🌍
 
 ### 4.2 User stories
-De user stories heb ik beschreven bij de [issues](https://github.com/LamersBart/Semester3/issues).
+De user stories heb ik beschreven bij de [issues](https://github.com/LamersBart/S3-Portfolio/issues).
 </br>
 Ik heb voor de user stories het volgende format gebruikt [^1]:
 * Als: (klant)
@@ -210,13 +213,36 @@ Ik heb voor de user stories het volgende format gebruikt [^1]:
 * Database voor het bijhouden van producten en voorraad
 
 ### 4.4 Minimal API or REST API?
-Chefresh versie 1 is een MVC-applicatie met 3-lagen structuur. Dit was nodig om de leeruitkomsten uit semester 2 aan te tonen. Nu wil ik de Chefresh app verder optimaliseren en ga ik een API maken die met een losse front-end communiceerd. Hiervoor heb ik onderzoek gedaan naar een minimal API (zonder controllers) of een standaard API (met controllers).
+Chefresh versie 1 is een MVC-applicatie met 3-lagen structuur.
+Dit was nodig om de leeruitkomsten uit semester 2 aan te tonen.
+Nu wil ik de Chefresh app verder optimaliseren en ga ik een API maken die met een losse front-end communiceerd.
+Hiervoor heb ik onderzoek gedaan naar een minimal API (zonder controllers) of een standaard API (met controllers) zie 4.6.
 
-[⬆️ Back to Table of contents](#table-of-contents)
+### 4.5 Front-end
+De front-end van Chefresh is gemaakt in ReactJS i.c.m. bootstrap voor react.
+Ik had nog nooit eerder gewerkt met ReactJS dus het was een hele uitdaging om de web-app op de juiste manier te laten functioneren.
+In de frond-end maak ik gebruik van Axios voor het versturen van calls naar de back-end.
+
+In het begin liep ik tegen het probleem van cross-origin aan en dat mijn front-end daardoor niet kon communiceren met de back-end. Na wat aanpassingen in de back-end was dit probleem ook verholpen.
+
+
+### 4.6 Back-end
+Ik heb dit semester opnieuw gekozen voor een backend in C# (.Net6). In het 2e semester heb ik ook al met C# (.Net6) gewerkt met een MVC-versie van Chefresh.
+Omdat ik me meer wilde verdiepen in C# heb ik niet gekozen voor een standaard REST-API met controllers aangezien dit te makkelijk zou zijn met het ombouwen van de MVC-applicatie naar een API.
+Daarom heb ik gekozen voor een minimal-API, een API zonder controllers waarbij de endpoints worden aangemaakt in de program.cs.
+
+Omdat Chefresh voornamelijk bestaat uit CRUD-acties heeft een minimal-API als voordeel dat het compacter is dan een standaard API.
+Het was wel even zoeken hoe een minimal-API werkt omdat de documentatie en implementatie er van nog niet zo breed bekend is als de standaard versie van een API.
+
+Gaandeweg ben ik er achter gekomen dat naast de voordelen die een minimal-API met zich mee brengt er ook nadelen zijn.
+Zo is het niet mogelijk om een cookie aan te maken in een endpoint, maar uitsluitend in de middleware. Hierdoor heb ik de JWT-token niet als httpOnly-cookie kunnen meesturen en moest ik de token opslaan in de localstorage van de browser.
+Meer hierover heb ik beschreven in mijn onderzoek naar veiligheid.
+
+[⬆️ Terug naar inhoudsopgave](#inhoudsopgave)
 
 </details>
 
-## 5. Group Project (Ordinner)
+## 5. Groepsproject (Ordinner)
 
 <details>
 <summary> </summary>
@@ -224,7 +250,7 @@ Met het groepsproject (GP) heb ik de volgende leeruitkomsten aangetoond:
 <br/>
 Leeruitkomsten 3, 6, 7 en 8
 
-### 5.1 Project description
+### 5.1 Project beschrijving
 Ordinner is een applicatie voor gebruik in de horeca. De app is voorzien van meerdere frond-ends en één back-end. Zo is er een front-end voor de restaurant gasten die via de web-app een bestelling kunnen plaatsen die vervolgens word doorgestuurd naar de front-end voor keuken en bar.
 Het was een hele uitdaging om alle requirements te verwezenlijken, maar met goed teamwork is het wel gelukt. De stakeholders zijn bij alle opleveringen erg enthousiast geweest over het opgeleverde werk, ze zijn in het hele process ook nauw betrokken geweest. 
   
@@ -236,7 +262,7 @@ De front-end is regelmatig aangepast op basis van nieuwe feedback van de stakeho
 De back-end van Ordinner is geschreven in JAVA spring-boot en er is gebruik gemaakt van {ORM} voor het genereren van de database.
 Omdat ik voornamelijk bezig ben geweest met de front-end is er niet een specifiek item uit de back-end wat ik heb gemaakt. Wel is er veel overleg geweest tussen Maarten en Janine (team back-end) om nieuwe endpoints te maken die vervolgens gebruikt zouden worden in de front-end. Ook deze samenerweking is prettig velopen.
 
-[⬆️ Back to Table of contents](#table-of-contents)  
+[⬆️ Terug naar inhoudsopgave](#inhoudsopgave)  
   
 </details>
 
@@ -248,7 +274,7 @@ Ik heb het derde semester als zeer leerzaam ervaren. Ik heb veel plezier gehad m
 Daarnaast heb ik veel geleerd en toegepast, denk aan ReactJS (zowel bij IP als GP) en het gebruik van een minimal-API. Ook de onderzoeken naar beveiliging hebben me veel gebracht.
 Ik weet nu wat de beste manier is om een JWT-token te gebruiken en hoe ik op die manier een veilige API kan bouwen. Dit was mijn nog niet gelukt in semester 1 en 2.
 
-[⬆️ Back to Table of contents](#table-of-contents)  
+[⬆️ Terug naar inhoudsopgave](#inhoudsopgave)  
   
 </details>
 
