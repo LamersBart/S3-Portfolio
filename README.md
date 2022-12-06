@@ -12,11 +12,17 @@
 
 ## Inhoudsopgave
 * [1. Introductie](#1-introductie)
-* [2. Leeruitkomsten](#2-leeruitkomsten)
+* [2. Leeruitkomsten (English)](#2-leeruitkomsten)
 * [3. Onderzoek](#3-onderzoek)
     * 3.1 Beveiliging
+      * 3.1.1 Welke manieren zijn er om JWT-tokens te bewaren?
+      * 3.1.2 Conclusie
     * 3.2 Agile
+      * 3.2.1 Welke vormen van agile zijn er?
+      * 3.2.2 Conclusie
     * 3.3 Culturele verschillen
+      * 3.3.1 Wat zijn culturele verschillen?
+      * 3.3.2 Conclusie
 * [4. Individueel project (Chefresh)](#4-individueel-project-chefresh)
     * 4.1 Project beschrijving
     * 4.2 User stories
@@ -28,7 +34,6 @@
     * 5.1 Project beschrijving
     * 5.2 Front-end
     * 5.3 Back-end
-
 * [6. Reflectie](#6-reflectie)
         
 ## 1. Introductie
@@ -38,7 +43,7 @@
 In this document I describe the learning outcomes, 
 </details>
 
-## 2. Leeruitkomsten
+## 2. Leeruitkomsten (English)
 
 <details>
 <summary> </summary>
@@ -166,12 +171,59 @@ Door middel van onderzoek heb ik de volgende leeruitkomsten aangetoond:
 Leeruitkomsten 2, 3 en 5
 
 ### 3.1 Beveiliging
+**Best practices for storing a JWT in my project**
 
+Voor mijn project (.NET 6 Minimal API) API -> (ReactJS) Front-end maak ik gebruik van JWT-tokens voor authenticatie.
+Deze tokens moeten ergens worden opgeslagen, dit kan echter op verschillende manieren.
+Dit ben ik verder gaan uitzoeken door er onderzoek naar te doen. 
+Iedere manier heeft namelijk zijn voor- en zijn nadelen en deze ga ik behandelen.
+
+#### 3.1.1 Welke manieren zijn er om JWT-tokens te bewaren?
+**LocalStorage:**
+Het opslaan van de JWT-token in localStorage heeft als voordeel dat het makkelijk toegankelijk is via JavaScript en dus daardoor gemakkelijker te beheren en op te vragen.
+Daarnaast is het persistente opslag, dit houdt in dat zelfs wanneer een browser wordt afgesloten of wanneer een nieuwe tab of verversing van de pagina plaats vindt de gebruiker nog steeds geauthentiseerd is.
+Dit kan voor sommige applicaties een uitkomst bieden, zeker als deze uit meerdere pagina’s bestaat zoals Chefresh.
+
+De gemakkelijke toegankelijkheid is ook meteen de grootste valkuil van localStorage,
+aangezien iedereen met kennis van JavaScript de tokens zou kunnen onderscheppen.
+Dit zorgt voor een veiligheidsrisico XSS-attack.
+
+**SessionStorage:**
+Het opslaan van de JWT-token in sessionStorage heeft hetzelfde voordeel als localStorage dat het makkelijk toegankelijk is via JavaScript en dus daardoor gemakkelijker te beheren en op te vragen.
+Anders dan localStorage is sessionStorage niet persistente opslag, dit houdt in dat wanneer een browser wordt afgesloten of wanneer een nieuwe tab of verversing van de pagina plaats vindt de gebruiker niet meer geauthentiseerd is.
+Dit kan voor sommige applicaties een uitkomst bieden (denk aan een one-page-applicatie), maar voor mijn applicatie is dat juist niet handig.
+
+Net als bij localStorage is de gemakkelijke toegankelijkheid ook meteen de grootste valkuil van sessionStorage,
+aangezien iedereen met kennis van JavaScript de tokens zou kunnen onderscheppen.
+Dit zorgt voor een veiligheidsrisico XSS-attack.
+
+**Cookies:**
+Het opslaan van een JWT-token in de cookies kan op meerdere manieren en heeft als voordeel dat ze volledig te configureren zijn.
+Ook cookies zijn persistente opslag, dus net als bij localStorage blijven gebruikers geauthentiseerd.
+Indien een cookie juist is geconfigureerd is het ook de veiligste oplossing en ben je tegen XSS-attacks beschermt.
+Het nadeel van een “veilige” cookie is dat je deze instelt op HTTPonly, wat inhoudt dat de cookie niet meer bereikbaar is via JavaScript en enkel in de header wordt meegestuurd.
+Hierdoor kun je de token dus ook niet meer gebruiken in de front-end laag om data uit te halen.
+Maar ook cookies bevatten kwetsbaarheden zoals CSRF-attacks. Het is dus de vraag wat het best werkt voor je applicatie.
+
+#### 3.1.2 Conclusie
+Het bewaren van een JWT-token in een httpOnly cookie is het veiligst. Ik heb daarom ook gekeken of ik dit kan toepassen in mijn persoonlijk project.
+Echter, omdat ik werk met een minimal-API kan ik alleen cookies aanmaken in de "middleware" en niet in mijn endpoints.
+Het probleem is dus dat er dan al een JWT-token moet worden aangemaakt voordat een gebruiker zich kan authentiseren,
+hierdoor ben ik genoodzaakt ben gebruik te maken van localstorage, omdat mijn applicatie wel persistente opslag van de token vereist.
 
 ### 3.2 Agile
 
+#### 3.2.1 Welke vormen van agile zijn er?
+
+#### 3.2.2 Conclusie
 
 ### 3.3 Culturele verschillen
+
+#### 3.3.1 Wat zijn culturele verschillen?
+
+#### 3.3.2 Welke invloed heeft dit in het werkveld?
+
+#### 3.3.3 Conclusie
 
 
 [⬆️ Terug naar inhoudsopgave](#inhoudsopgave)
