@@ -342,6 +342,10 @@ Ik heb voor de user stories het volgende format gebruikt [^1]: [bron: agilescrum
 <details>
 <summary><b>&nbsp;Groepsproject (Ordinner)</b></summary>
 
+#### 2.6.3 User stories
+
+
+#### 2.6.4 Design
 Voor het groepsproject heb ik me voornamelijk bezig gehouden met front-end.
 Ik heb hier ook designs en wireframes voor gemaakt.
 Na goedkeuring en opmerkingen van de stakeholders zijn deze designs verwekt tot het eindresultaat
