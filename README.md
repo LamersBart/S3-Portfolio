@@ -58,13 +58,13 @@ Chefresh: de revolutionaire inventarisatie-app waarmee u uw producten in huis ku
 Zo kom je nooit meer voor verrassingen in de koelkast te staan en bereid je de lekkerste gerechten met etenswaren die het snelst genuttigd moeten worden.
 Wel zo fijn voor onze planeet 🌍
 
-### 2.1.4 Minimal-API of REST-API?
+#### 2.1.4 Minimal-API of REST-API?
 Chefresh versie 1 is een MVC-applicatie met 3-lagen structuur.
 Dit was nodig om de leeruitkomsten uit semester 2 aan te tonen.
 Nu wil ik de Chefresh app verder optimaliseren en ga ik een API maken die met een losse front-end communiceerd.
 Hiervoor heb ik onderzoek gedaan naar een minimal API (zonder controllers) of een standaard API (met controllers) zie 4.6.
 
-### 2.1.5 Front-end
+#### 2.1.5 Front-end
 De front-end van Chefresh is gemaakt in ReactJS i.c.m. bootstrap voor react.
 Ik had nog nooit eerder gewerkt met ReactJS dus het was een hele uitdaging om de web-app op de juiste manier te laten functioneren.
 In de frond-end maak ik gebruik van Axios voor het versturen van calls naar de back-end.
@@ -72,7 +72,7 @@ In de frond-end maak ik gebruik van Axios voor het versturen van calls naar de b
 In het begin liep ik tegen het probleem van cross-origin aan en dat mijn front-end daardoor niet kon communiceren met de back-end.
 Na wat aanpassingen in de back-end was dit probleem ook verholpen.
 
-### 2.1.6 Back-end
+#### 2.1.6 Back-end
 Ik heb dit semester opnieuw gekozen voor een backend in C# (.Net6).
 In het 2e semester heb ik ook al met C# (.Net6) gewerkt met een MVC-versie van Chefresh.
 Omdat ik me meer wilde verdiepen in C# heb ik niet gekozen voor een standaard REST-API met controllers aangezien dit te makkelijk zou zijn met het ombouwen van de MVC-applicatie naar een API.
