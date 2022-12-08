@@ -327,8 +327,8 @@ Het is de verantwoordelijkheid van de softwareontwikkelaar om ervoor te zorgen d
 Zoals je ziet, is de technologie al erg ver. Deze chatbot opzich is al een entichse kwestie.
 Gaat de mens niet te ver met de onwikkeling van technoligische inlelligentie, waar houdt het op?
 
-Het is dus goed op altijd oplettend te zijn met welke doelen je uiteindelijk de software wil gaan gebruiken,
-maar niet onbelangrijk met welke doelen de software ook misbruikt kan worden en welke gevolgen dit heeft voor je medemens.
+Het is dus goed om altijd oplettend te zijn met welke doelen je uiteindelijk de software wil gaan gebruiken,
+maar ook niet onbelangrijk met welke doelen de software misbruikt kan worden en welke gevolgen dit heeft voor je medemens.
 
 Buiten de door AI genoemde onderwerpen kleven er nog veel meer etichse kwesties aan softwareontwikkeling.
 Een mooi voorbeeld is het groepsproject, een restaurant app gemaakt voor gemak en efficentie in het hele procces.
@@ -394,17 +394,19 @@ Ik heb voor de user stories het volgende format gebruikt. [^4]
 * Front-end language: ReactJS
 * Back-end language: .NET 6
 * Backend bestaat uit een Minimal API zodat de app ook door derden kan worden geïmplementeerd
-* Database voor het bijhouden van producten en voorraad
+* MySQL Database voor het bijhouden van producten en voorraad
+
+#### 2.6.3 Design
 
 </details>
 <br/>
 <details>
 <summary><b>&nbsp;Groepsproject (Ordinner)</b></summary>
 
-#### 2.6.3 User stories
+#### 2.6.4 User stories
 
 
-#### 2.6.4 Design
+#### 2.6.5 Design
 Voor het groepsproject heb ik me voornamelijk bezig gehouden met front-end.
 Ik heb hier ook designs en wireframes voor gemaakt.
 Na goedkeuring en opmerkingen van de stakeholders zijn deze designs verwekt tot het eindresultaat
@@ -490,3 +492,8 @@ Ik weet nu wat de beste manier is om een JWT-token te gebruiken en hoe ik op die
 [^3]: [bron: vivekkrishnavk.medium.com](https://vivekkrishnavk.medium.com/using-jwts-as-http-only-cookies-with-react-js-a301991fdfa6)
 [^4]: [bron: agilescrumgroup](https://agilescrumgroup.nl/wat-is-een-user-story/)
 [^5]: [bron: acm.org](https://www.acm.org/code-of-ethics)
+[^]: [bron: ]()
+[^]: [bron: ]()
+[^]: [bron: ]()
+[^]: [bron: ]()
+[^]: [bron: ]()
