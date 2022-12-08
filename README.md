@@ -126,10 +126,6 @@ Echter, omdat ik werk met een minimal-API kan ik alleen cookies aanmaken in de "
 Het probleem is dus dat er dan al een JWT-token moet worden aangemaakt voordat een gebruiker zich kan authentiseren,
 hierdoor ben ik genoodzaakt ben gebruik te maken van localstorage, omdat mijn applicatie wel persistente opslag van de token vereist. [^1], [^2], [^3].
 
-[^1]: [bron: tkacz.pro](https://tkacz.pro/how-to-securely-store-jwt-tokens/)
-[^2]: [bron: blinkingcaret.com](https://www.blinkingcaret.com/2018/07/18/secure-an-asp-net-core-web-api-using-cookies/)
-[^3]: [bron: vivekkrishnavk.medium.com](https://vivekkrishnavk.medium.com/using-jwts-as-http-only-cookies-with-react-js-a301991fdfa6)
-
 </details>
 <br/>
 <details>
@@ -340,8 +336,6 @@ Ik heb voor de user stories het volgende format gebruikt. [^4]
 * Wil ik: (beschrijving van datgene dat ontwikkeld moet worden)
 * Zodat ik: (beschrijving van de reden waarom dat ontwikkeld moet worden)
 
-[^4]: [bron: agilescrumgroup](https://agilescrumgroup.nl/wat-is-een-user-story/)
-
 #### 2.6.2 Requirements
 * Front-end language: ReactJS
 * Back-end language: .NET 6
@@ -361,7 +355,7 @@ Voor het groepsproject heb ik me voornamelijk bezig gehouden met front-end.
 Ik heb hier ook designs en wireframes voor gemaakt.
 Na goedkeuring en opmerkingen van de stakeholders zijn deze designs verwekt tot het eindresultaat
 
-Wireframe ([interactieve link](https://www.sketch.com/s/8c5fc696-7497-4b51-8202-7c120f0a2fe2/prototype/a/5AC3CB5E-4325-450B-A216-F6D7D8AA4C84)):
+Wireframe <a href="https://www.sketch.com/s/8c5fc696-7497-4b51-8202-7c120f0a2fe2/prototype/a/5AC3CB5E-4325-450B-A216-F6D7D8AA4C84" target="_blank">(interactieve link)</a>:
 
 ![img.png](images/GP-wireframe.png)
 
@@ -443,3 +437,7 @@ Ik weet nu wat de beste manier is om een JWT-token te gebruiken en hoe ik op die
 </details>
 
 ### Bronvermelding
+[^1]: [bron: tkacz.pro](https://tkacz.pro/how-to-securely-store-jwt-tokens/)
+[^2]: [bron: blinkingcaret.com](https://www.blinkingcaret.com/2018/07/18/secure-an-asp-net-core-web-api-using-cookies/)
+[^3]: [bron: vivekkrishnavk.medium.com](https://vivekkrishnavk.medium.com/using-jwts-as-http-only-cookies-with-react-js-a301991fdfa6)
+[^4]: [bron: agilescrumgroup](https://agilescrumgroup.nl/wat-is-een-user-story/)
