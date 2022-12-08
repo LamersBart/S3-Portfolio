@@ -124,7 +124,7 @@ Maar ook cookies bevatten kwetsbaarheden zoals CSRF-attacks. Het is dus de vraag
 Het bewaren van een JWT-token in een httpOnly cookie is het veiligst. Ik heb daarom ook gekeken of ik dit kan toepassen in mijn persoonlijk project.
 Echter, omdat ik werk met een minimal-API kan ik alleen cookies aanmaken in de "middleware" en niet in mijn endpoints.
 Het probleem is dus dat er dan al een JWT-token moet worden aangemaakt voordat een gebruiker zich kan authentiseren,
-hierdoor ben ik genoodzaakt ben gebruik te maken van localstorage, omdat mijn applicatie wel persistente opslag van de token vereist.
+hierdoor ben ik genoodzaakt ben gebruik te maken van localstorage, omdat mijn applicatie wel persistente opslag van de token vereist. [^1], [^2], [^3].
 
 [^1]: [bron: tkacz.pro](https://tkacz.pro/how-to-securely-store-jwt-tokens/)
 [^2]: [bron: blinkingcaret.com](https://www.blinkingcaret.com/2018/07/18/secure-an-asp-net-core-web-api-using-cookies/)
@@ -335,7 +335,7 @@ Je evalueert de kwaliteit van het ontwerp (bijvoorbeeld door testen of prototypi
 #### 2.6.1 User stories
 De user stories heb ik beschreven bij de [issues](https://github.com/LamersBart/S3-Portfolio/issues).
 </br>
-Ik heb voor de user stories het volgende format gebruikt.
+Ik heb voor de user stories het volgende format gebruikt. [^4]
 * Als: (klant)
 * Wil ik: (beschrijving van datgene dat ontwikkeld moet worden)
 * Zodat ik: (beschrijving van de reden waarom dat ontwikkeld moet worden)
