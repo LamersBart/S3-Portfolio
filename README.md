@@ -176,6 +176,13 @@ Om de software kwaliteit van mijn app te controleren heb ik gebruik gemaakt van 
 Ik heb hiervoor SonarQube geinstalleerd op mijn eigen server.<br/>
 Via github-actions wordt er bij iedere push op de main branch middelds een yaml file een build van het project uitgevoerd en als deze geslaagd is wordt de code doorgestuurd naar het SonarQube dashboard.
 
+Na de eerste keer dat SonarQube de code heeft gescand had de back-end de volgende issues:
+* 28 bugs
+* 71 code smells
+* 0 vulnerabilities
+* 0 security hotspot(s)
+
+![img.png](images/IPBackEnd-Sonar-1-12-19-53.png)
 
 </details>
 <br/>
