@@ -87,7 +87,7 @@ Hierdoor heb ik de JWT-token niet als httpOnly-cookie kunnen meesturen en moest 
 Meer hierover heb ik beschreven in mijn onderzoek naar veiligheid.
 
 #### 2.1.7 Beveiliging
-Best practices for storing a JWT in my project:<br/>
+Best practices voor het opslaan van een JWT in mijn project:<br/>
 Voor mijn project maak ik gebruik van JWT-tokens voor authenticatie.
 Deze tokens moeten ergens worden opgeslagen, dit kan echter op verschillende manieren.
 Dit ben ik verder gaan uitzoeken door er onderzoek naar te doen.
@@ -267,12 +267,6 @@ Ontwerp en implementeer: Je ontwerpt een releaseproces en implementeert een oplo
 
 
 </details>
-<br/>
-<details>
-<summary><b>&nbsp;Groepsproject (Ordinner)</b></summary>
-
-
-</details>
 
 [⬆️ Terug naar inhoudsopgave](#inhoudsopgave)
 
@@ -291,14 +285,57 @@ Houd rekening met: Pas je communicatie-, werk- en gedragsstijlen aan om projectb
 
 ### Hoe heb ik deze leeruitkomst aangetoond:
 
-#### 2.5.1 Wat zijn culturele verschillen?
+#### 2.5.1 Culturele verschillen: Wat zijn culturele verschillen?
 
-#### 2.5.2 Welke invloed heeft dit in het werkveld?
+#### 2.5.2 Culturele verschillen: Welke invloed heeft dit in het werkveld?
 
-#### 2.5.3 Ethiek en ICT
+#### 2.5.3 Culturele verschillen: Conclusie
 
+#### 2.5.4 Ethiek en ICT: Vraagstukken met betrekking tot softwareontwikkeling
+Omdat ethiek een belangrijke factor is in de ontwikkeling van software en momenteel met de opruk van AI een veelbesroken topic is,
+heb ik de vraag: "Wat zijn ethische vraagstukken met betrekking tot softwareontwikkeling?" gesteld aan de gloednieuwe chat-AI (ChatGPT) van openAI.
+het antwoord van de chatbot was:
+
+"Ethische vraagstukken met betrekking tot softwareontwikkeling kunnen betrekking hebben op een breed scala aan onderwerpen,
+afhankelijk van de context waarin de software wordt ontwikkeld en gebruikt.
+Sommige voorbeelden van dergelijke vraagstukken kunnen zijn:
+
+Privacy: software kan worden gebruikt om persoonlijke informatie te verzamelen en te gebruiken op manieren die de gebruiker niet verwacht of die de privacy van de gebruiker schaden.
+Het is de verantwoordelijkheid van de softwareontwikkelaar om ervoor te zorgen dat dergelijke activiteiten worden voorkomen en dat de gebruikers worden beschermd.
+
+Discriminatie: software kan worden gebruikt om discriminatie te bevorderen,
+bijvoorbeeld door mensen te selecteren voor bepaalde banen of diensten op basis van hun ras, geslacht of seksuele geaardheid.
+Het is de verantwoordelijkheid van de softwareontwikkelaar om ervoor te zorgen dat dergelijke praktijken niet worden bevorderd door de software.
+
+Veiligheid: software kan worden gebruikt om mensen in gevaar te brengen, bijvoorbeeld door fouten in de code die leiden tot onveilige situaties.
+Het is de verantwoordelijkheid van de softwareontwikkelaar om ervoor te zorgen dat dergelijke situaties worden voorkomen door grondig te testen en te controleren op fouten.
+
+Toegang tot informatie: software kan worden gebruikt om toegang tot informatie te beperken of te verhinderen, 
+bijvoorbeeld door middel van beperkende licenties of digitale rechtenbeheersystemen. 
+Het is de verantwoordelijkheid van de softwareontwikkelaar om ervoor te zorgen dat de software niet wordt gebruikt om toegang tot informatie te beperken of te verhinderen voor degenen die er recht op hebben."
+
+#### 2.5.5 Ethiek en ICT: Conclusie
+Zoals je ziet, is de technologie al erg ver. Deze chatbot opzich is al een entichse kwestie.
+Gaat de mens niet te ver met de onwikkeling van technoligische inlelligentie, waar houdt het op?
+
+Het is dus goed op altijd oplettend te zijn met welke doelen je uiteindelijk de software wil gaan gebruiken,
+maar niet onbelangrijk met welke doelen de software ook misbruikt kan worden en welke gevolgen dit heeft voor je medemens. 
+
+Buiten de door AI genoemde onderwerpen kleven er nog veel meer etichse kwesties aan softwareontwikkeling.
+Een mooi voorbeeld is het groepsproject, een restaurant app gemaakt voor gemak en efficentie in het hele procces.
+Maar het gemak komt ook met een prijs, namelijk dat er ook minder persooneel nodig zal zijn ik het restaurant.
+Onze applicatie zorgt dus indirect ook voor het feit dat mensen die nu een baan hebben deze kwijt gaan raken omdat ze overbodig zijn.
+
+#### 2.5.6 Ethiek en ICT: Toepassingen in de applicatie
 <details>
 <summary><b>&nbsp;Individueel project (Chefresh)</b></summary>
+
+In mijn persoonlijke project (Chefresh) heb ik de volgende punten uit de ACM Code of Ethics and Professional Conduct toegepast [^5]:
+
+Be honest and trustworthy:
+
+
+Respect privacy:
 
 
 </details>
@@ -306,8 +343,14 @@ Houd rekening met: Pas je communicatie-, werk- en gedragsstijlen aan om projectb
 <details>
 <summary><b>&nbsp;Groepsproject (Ordinner)</b></summary>
 
+In het groepsproject (Ordinner) hebben we de volgende punten uit de ACM Code of Ethics and Professional Conduct toegepast [^5]:
+
+Design and implement systems that are robustly and usably secure:
+
+
 
 </details>
+
 
 [⬆️ Terug naar inhoudsopgave](#inhoudsopgave)
 
@@ -381,12 +424,6 @@ Bedrijfsprocessen die nodig zijn voor het succes van uw softwareontwikkelingspro
 
 ### Hoe heb ik deze leeruitkomst aangetoond:
 <details>
-<summary><b>&nbsp;Individueel project (Chefresh)</b></summary>
-
-
-</details>
-<br/>
-<details>
 <summary><b>&nbsp;Groepsproject (Ordinner)</b></summary>
 
 
@@ -441,3 +478,4 @@ Ik weet nu wat de beste manier is om een JWT-token te gebruiken en hoe ik op die
 [^2]: [bron: blinkingcaret.com](https://www.blinkingcaret.com/2018/07/18/secure-an-asp-net-core-web-api-using-cookies/)
 [^3]: [bron: vivekkrishnavk.medium.com](https://vivekkrishnavk.medium.com/using-jwts-as-http-only-cookies-with-react-js-a301991fdfa6)
 [^4]: [bron: agilescrumgroup](https://agilescrumgroup.nl/wat-is-een-user-story/)
+[^5]: [bron: acm.org](https://www.acm.org/code-of-ethics)
