@@ -285,13 +285,22 @@ Houd rekening met: Pas je communicatie-, werk- en gedragsstijlen aan om projectb
 
 ### Hoe heb ik deze leeruitkomst aangetoond:
 
-#### 2.5.1 Culturele verschillen: Wat zijn culturele verschillen?
 
-#### 2.5.2 Culturele verschillen: Welke invloed heeft dit in het werkveld?
+<details>
+<summary> Culturele verschillen</summary>
 
-#### 2.5.3 Culturele verschillen: Conclusie
+#### 2.5.1 Wat zijn culturele verschillen?
 
-#### 2.5.4 Ethiek en ICT: Vraagstukken met betrekking tot softwareontwikkeling
+#### 2.5.2 Welke invloed heeft dit in het werkveld?
+
+#### 2.5.3 Conclusie
+
+</details>
+<br/>
+<details>
+<summary> Ethiek en ICT</summary>
+
+#### 2.5.4 Vraagstukken met betrekking tot softwareontwikkeling
 Omdat ethiek een belangrijke factor is in de ontwikkeling van software en momenteel met de opruk van AI een veelbesroken topic is,
 heb ik de vraag: "Wat zijn ethische vraagstukken met betrekking tot softwareontwikkeling?" gesteld aan de gloednieuwe chat-AI (ChatGPT) van openAI.
 het antwoord van de chatbot was:
@@ -310,23 +319,23 @@ Het is de verantwoordelijkheid van de softwareontwikkelaar om ervoor te zorgen d
 Veiligheid: software kan worden gebruikt om mensen in gevaar te brengen, bijvoorbeeld door fouten in de code die leiden tot onveilige situaties.
 Het is de verantwoordelijkheid van de softwareontwikkelaar om ervoor te zorgen dat dergelijke situaties worden voorkomen door grondig te testen en te controleren op fouten.
 
-Toegang tot informatie: software kan worden gebruikt om toegang tot informatie te beperken of te verhinderen, 
-bijvoorbeeld door middel van beperkende licenties of digitale rechtenbeheersystemen. 
+Toegang tot informatie: software kan worden gebruikt om toegang tot informatie te beperken of te verhinderen,
+bijvoorbeeld door middel van beperkende licenties of digitale rechtenbeheersystemen.
 Het is de verantwoordelijkheid van de softwareontwikkelaar om ervoor te zorgen dat de software niet wordt gebruikt om toegang tot informatie te beperken of te verhinderen voor degenen die er recht op hebben."
 
-#### 2.5.5 Ethiek en ICT: Conclusie
+#### 2.5.5 Conclusie
 Zoals je ziet, is de technologie al erg ver. Deze chatbot opzich is al een entichse kwestie.
 Gaat de mens niet te ver met de onwikkeling van technoligische inlelligentie, waar houdt het op?
 
 Het is dus goed op altijd oplettend te zijn met welke doelen je uiteindelijk de software wil gaan gebruiken,
-maar niet onbelangrijk met welke doelen de software ook misbruikt kan worden en welke gevolgen dit heeft voor je medemens. 
+maar niet onbelangrijk met welke doelen de software ook misbruikt kan worden en welke gevolgen dit heeft voor je medemens.
 
 Buiten de door AI genoemde onderwerpen kleven er nog veel meer etichse kwesties aan softwareontwikkeling.
 Een mooi voorbeeld is het groepsproject, een restaurant app gemaakt voor gemak en efficentie in het hele procces.
 Maar het gemak komt ook met een prijs, namelijk dat er ook minder persooneel nodig zal zijn ik het restaurant.
 Onze applicatie zorgt dus indirect ook voor het feit dat mensen die nu een baan hebben deze kwijt gaan raken omdat ze overbodig zijn.
 
-#### 2.5.6 Ethiek en ICT: Toepassingen in de applicatie
+#### 2.5.6 Toepassingen in de applicatie
 <details>
 <summary><b>&nbsp;Individueel project (Chefresh)</b></summary>
 
@@ -348,6 +357,8 @@ In het groepsproject (Ordinner) hebben we de volgende punten uit de ACM Code of 
 Design and implement systems that are robustly and usably secure:
 
 
+
+</details>
 
 </details>
 
