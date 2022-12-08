@@ -62,7 +62,7 @@ Wel zo fijn voor onze planeet 🌍
 Chefresh versie 1 is een MVC-applicatie met 3-lagen structuur.
 Dit was nodig om de leeruitkomsten uit semester 2 aan te tonen.
 Nu wil ik de Chefresh app verder optimaliseren en ga ik een API maken die met een losse front-end communiceerd.
-Hiervoor heb ik onderzoek gedaan naar een minimal API (zonder controllers) of een standaard API (met controllers) zie 4.6.
+Hiervoor heb ik onderzoek gedaan naar een minimal API (zonder controllers) of een standaard API (met controllers) zie 2.1.6
 
 #### 2.1.5 Front-end
 De front-end van Chefresh is gemaakt in ReactJS i.c.m. bootstrap voor react.
@@ -86,10 +86,9 @@ Zo is het niet mogelijk om een cookie aan te maken in een endpoint, maar uitslui
 Hierdoor heb ik de JWT-token niet als httpOnly-cookie kunnen meesturen en moest ik de token opslaan in de localstorage van de browser.
 Meer hierover heb ik beschreven in mijn onderzoek naar veiligheid.
 
-
 #### 2.1.7 Beveiliging
-**Best practices for storing a JWT in my project:** <br/>
-Voor mijn project (.NET 6 Minimal API) API -> (ReactJS) Front-end maak ik gebruik van JWT-tokens voor authenticatie.
+Best practices for storing a JWT in my project:<br/>
+Voor mijn project maak ik gebruik van JWT-tokens voor authenticatie.
 Deze tokens moeten ergens worden opgeslagen, dit kan echter op verschillende manieren.
 Dit ben ik verder gaan uitzoeken door er onderzoek naar te doen.
 Iedere manier heeft namelijk zijn voor- en zijn nadelen en deze ga ik behandelen.
@@ -125,8 +124,11 @@ Maar ook cookies bevatten kwetsbaarheden zoals CSRF-attacks. Het is dus de vraag
 Het bewaren van een JWT-token in een httpOnly cookie is het veiligst. Ik heb daarom ook gekeken of ik dit kan toepassen in mijn persoonlijk project.
 Echter, omdat ik werk met een minimal-API kan ik alleen cookies aanmaken in de "middleware" en niet in mijn endpoints.
 Het probleem is dus dat er dan al een JWT-token moet worden aangemaakt voordat een gebruiker zich kan authentiseren,
-hierdoor ben ik genoodzaakt ben gebruik te maken van localstorage, omdat mijn applicatie wel persistente opslag van de token vereist. [^2], [^3], [^4]
+hierdoor ben ik genoodzaakt ben gebruik te maken van localstorage, omdat mijn applicatie wel persistente opslag van de token vereist.
 
+[^1]: [bron: tkacz.pro](https://tkacz.pro/how-to-securely-store-jwt-tokens/)
+[^2]: [bron: blinkingcaret.com](https://www.blinkingcaret.com/2018/07/18/secure-an-asp-net-core-web-api-using-cookies/)
+[^3]: [bron: vivekkrishnavk.medium.com](https://vivekkrishnavk.medium.com/using-jwts-as-http-only-cookies-with-react-js-a301991fdfa6)
 
 </details>
 <br/>
@@ -190,7 +192,7 @@ Na de eerste keer dat SonarQube de code heeft gescand had de back-end de volgend
 <summary><b>&nbsp;Groepsproject (Ordinner)</b></summary>
 
 Om de software kwaliteit van het groepsproject te controleren heb ik gebruik gemaakt van SonarQube.
-Ik heb hiervoor de sonarqube installatie gebruikt van mijn eigen server<br/>
+Ik heb hiervoor de sonarqube installatie gebruikt van mijn eigen server.<br/>
 Via github-actions wordt er bij iedere push en/of pull-request op de master branch middelds een yaml file een build van het project uitgevoerd en als deze geslaagd is wordt de code doorgestuurd naar het SonarQube dashboard.
 
 Na de eerste keer dat SonarQube de code heeft gescand had de back-end de volgende issues:
@@ -333,10 +335,12 @@ Je evalueert de kwaliteit van het ontwerp (bijvoorbeeld door testen of prototypi
 #### 2.6.1 User stories
 De user stories heb ik beschreven bij de [issues](https://github.com/LamersBart/S3-Portfolio/issues).
 </br>
-Ik heb voor de user stories het volgende format gebruikt [^1]: [bron: agilescrumgroup](https://agilescrumgroup.nl/wat-is-een-user-story/](https://agilescrumgroup.nl/wat-is-een-user-story/):
+Ik heb voor de user stories het volgende format gebruikt.
 * Als: (klant)
 * Wil ik: (beschrijving van datgene dat ontwikkeld moet worden)
 * Zodat ik: (beschrijving van de reden waarom dat ontwikkeld moet worden)
+
+[^4]: [bron: agilescrumgroup](https://agilescrumgroup.nl/wat-is-een-user-story/)
 
 #### 2.6.2 Requirements
 * Front-end language: ReactJS
@@ -439,7 +443,3 @@ Ik weet nu wat de beste manier is om een JWT-token te gebruiken en hoe ik op die
 </details>
 
 ## Bronvermelding
-
-[^2]: [https://tkacz.pro/how-to-securely-store-jwt-tokens/]
-[^3]: [https://www.blinkingcaret.com/2018/07/18/secure-an-asp-net-core-web-api-using-cookies/]
-[^4]: [https://vivekkrishnavk.medium.com/using-jwts-as-http-only-cookies-with-react-js-a301991fdfa6]
