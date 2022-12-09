@@ -265,6 +265,123 @@ Ontwerp en implementeer: Je ontwerpt een releaseproces en implementeert een oplo
 <details>
 <summary><b>&nbsp;Individueel project (Chefresh)</b></summary>
 
+Voor de CI/CD heb ik gebruikt gemaakt van Github Actions. De flow van mijn pipeline ziet er als volgt uit:<br/>
+1. Zodra er een nieuwe "push" is op de main branch word de pipeline gestart.
+2. De code word gebuild en vervgolgens gestest door SonarQube.
+3. Als de code door de test van SonarQube heen komt word er via SSH verbinding gemaakt met mijn server en word de nieuwe code naar de server "gepulled".
+4. Zodra de code succesvol is bijgewerkt, wordt de appilactie gestopt en opnieuw opgestart.
+
+Als stap 2 niet succesvol is, gaan stap 3 en 4 niet door.<br/>
+Als stap 2 en 3 niet succesvol zijn gaat stap 4 niet door.
+
+Ik heb de credentials als secret toegevoegd aan mijn repository waardoor deze voor niemand zichtbaar zijn.<br/>
+Zo ziet mijn yaml-file er uit:<br/>
+```
+name: Build
+on:
+  push:
+    branches:
+      - main # or the name of your main branch
+
+jobs:
+  build:
+    name: build and test
+    runs-on: windows-latest
+    defaults:
+      run:
+        working-directory: Chefresh-MinimalAPI
+    steps:
+      - name: Set up JDK 11
+        uses: actions/setup-java@v1
+        with:
+          java-version: 1.11
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
+      - name: Cache SonarQube packages
+        uses: actions/cache@v1
+        with:
+          path: ~\sonar\cache
+          key: ${{ runner.os }}-sonar
+          restore-keys: ${{ runner.os }}-sonar
+      - name: Cache SonarQube scanner
+        id: cache-sonar-scanner
+        uses: actions/cache@v1
+        with:
+          path: .\.sonar\scanner
+          key: ${{ runner.os }}-sonar-scanner
+          restore-keys: ${{ runner.os }}-sonar-scanner
+      - name: Install SonarQube scanner
+        if: steps.cache-sonar-scanner.outputs.cache-hit != 'true'
+        shell: powershell
+        run: |
+          New-Item -Path .\.sonar\scanner -ItemType Directory
+          dotnet tool update dotnet-sonarscanner --tool-path .\.sonar\scanner
+      - name: Build and analyze
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
+        shell: powershell
+        run: |
+          .\.sonar\scanner\dotnet-sonarscanner begin /k:"ChefreshMinimalAPI" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="${{ secrets.SONAR_HOST_URL }}" /d:sonar.qualitygate.wait=true
+          dotnet build
+          .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
+  
+  deploy:
+    name: deploy
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy .Net Minimal-API
+        uses: appleboy/ssh-action@v0.1.2
+        with:
+          host: ${{secrets.SSH_HOST}}
+          key: ${{secrets.SSH_KEY}}
+          username: ${{secrets.SSH_USERNAME}}
+          
+          
+          script: |
+          
+            cd /var/www/chefreshMinimalAPI/ChefreshMinimalAPI
+            
+            git pull git@github.com:LamersBart/ChefreshMinimalAPI.git
+            
+            echo 'deployment succesful to DigitalOcean'
+  
+  publish:
+    name: publish
+    needs: [build, deploy]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy .Net Minimal-API
+        uses: appleboy/ssh-action@v0.1.2
+        with:
+          host: ${{secrets.SSH_HOST}}
+          key: ${{secrets.SSH_KEY}}
+          username: ${{secrets.SSH_USERNAME}}
+          
+          
+          script: |
+          
+            systemctl stop chefreshMinimalAPI.service
+            
+            cd /var/www/chefreshMinimalAPI/ChefreshMinimalAPI/Chefresh-MinimalAPI
+            
+            dotnet build
+            
+            dotnet publish
+            
+            cd ~
+            
+            systemctl daemon-reload
+            
+            systemctl start chefreshMinimalAPI.service
+            
+            echo 'publish succesful to dev.chefresh.nl'
+
+```
+
+Om deze pipleline werkend te krijgen heb ik eerst een paar stappen moeten doorlopen op het volledig automatich te laten werken.<br/>
+Zo heb ik eenmalig het project via terminal moeten binnenhalen op de server en heb ik een .service file aangemaakt die het starten van de applicatie makkelijker maakt. Ook heb ik eenmalig nginx moeten configureren dat wanneer de server draait deze ook bereikbaar is via dev.chefresh.nl.
 
 </details>
 
