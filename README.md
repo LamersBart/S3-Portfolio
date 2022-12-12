@@ -182,11 +182,37 @@ Na de eerste keer dat SonarQube de code heeft gescand had de back-end de volgend
 
 ![img.png](images/IPBackEnd-Sonar-1-12-19-53.png)
 
+#### End2End testing
+Om het project end2end te testen heb ik gebruik gemaakt van cypress.<br/>
+Hiervoor heb ik eerst uitgevoerd:
+```
+npm install cypress --save-dev
+```
+Daarna:
+```
+npx cypress open
+```
+Toen opende Cypress:
+
+![img.png](images/first-opened-cypress.png)
+
+Vervolgens opende dit dashboard in firefox:
+
+![img.png](images/first-opened-cypress-dashboard.png)
+
+Na het schrijven van een eerste simpele test, de homepage inladen liep ik meteen tegen errors aan:
+
+![img.png](images/IP-Front-end-first-cypress-result.png)
+
+Dit komt omdat ik de homepage en navbar aan wil passen op basis van de ingelogde gebruiker, maar als een gebruiker nog niet is ingelogd kan de fornt-end deze data niet op halen uit de backend.
+Dit zorgt dus voor problemen. Om dit op te lossen heb ik een 'sub'-navbar en homepage gemaakt die worden ingeladen zolang een user nog niet is ingelogd.
+
 </details>
 <br/>
 <details>
 <summary><b>&nbsp;Groepsproject (Ordinner)</b></summary>
 
+#### SonarQube
 Om de software kwaliteit van het groepsproject te controleren heb ik gebruik gemaakt van SonarQube.
 Ik heb hiervoor de sonarqube installatie gebruikt van mijn eigen server.<br/>
 Via github-actions wordt er bij iedere push en/of pull-request op de master branch middelds een yaml file een build van het project uitgevoerd en als deze geslaagd is wordt de code doorgestuurd naar het SonarQube dashboard.
@@ -223,7 +249,7 @@ Op moment van schrijven (7 december 2022) scooren Reliability, Security Review e
 <summary>&nbsp;Uitklappen</summary>
 
 ```
-Je kiest en implementeert de meest geschikte agile software ontwikkelmethode voor uw softwareproject.
+Je kiest en implementeert de meest geschikte agile software ontwikkelmethode voor je softwareproject.
 
 Kiezen: Je bent op de hoogte van de meest populaire agile methoden en hun onderliggende agile principes.
 Je keuze voor een methode is gemotiveerd en gebaseerd op goed gedefinieerde selectiecriteria en contextanalyses.
