@@ -170,6 +170,7 @@ Tooling en methodiek: Uitvoeren, monitoren en rapporteren van unit integratie-, 
 <details>
 <summary><b>&nbsp;Individueel project (Chefresh)</b></summary>
 
+### 2.2.1 SonarQube
 Om de software kwaliteit van mijn app te controleren heb ik gebruik gemaakt van SonarQube.
 Ik heb hiervoor SonarQube geinstalleerd op mijn eigen server.<br/>
 Via github-actions wordt er bij iedere push op de main branch middelds een yaml file een build van het project uitgevoerd en als deze geslaagd is wordt de code doorgestuurd naar het SonarQube dashboard.
@@ -182,7 +183,7 @@ Na de eerste keer dat SonarQube de code heeft gescand had de back-end de volgend
 
 ![img.png](images/IPBackEnd-Sonar-1-12-19-53.png)
 
-### 2.2.1 End2End testing
+### 2.2.2 End2End testing
 Om het project end2end te testen heb ik gebruik gemaakt van cypress.<br/>
 Hiervoor heb ik eerst uitgevoerd:
 ```
@@ -212,7 +213,7 @@ Dit zorgt dus voor problemen. Om dit op te lossen heb ik een 'sub'-navbar en hom
 <details>
 <summary><b>&nbsp;Groepsproject (Ordinner)</b></summary>
 
-### 2.2.2 SonarQube
+### 2.2.3 SonarQube
 Om de software kwaliteit van het groepsproject te controleren heb ik gebruik gemaakt van SonarQube.
 Ik heb hiervoor de sonarqube installatie gebruikt van mijn eigen server.<br/>
 Via github-actions wordt er bij iedere push en/of pull-request op de master branch middelds een yaml file een build van het project uitgevoerd en als deze geslaagd is wordt de code doorgestuurd naar het SonarQube dashboard.
