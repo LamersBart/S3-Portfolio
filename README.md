@@ -50,7 +50,7 @@ Full-stack: Je ontwerpt en bouwt een full-stack applicatie met behulp van algeme
 <details>
 <summary><b>&nbsp;Individueel project (Chefresh)</b></summary>
 
-#### 2.1.1 Project beschrijving
+### 2.1.1 Project beschrijving
 Chefresh is een app die is ontwikkeld in C# met gebruik van een minimale API-backend en een ReactJS-frontend.
 
 Doel van de app: <br/>
@@ -58,13 +58,13 @@ Chefresh: de revolutionaire inventarisatie-app waarmee u uw producten in huis ku
 Zo kom je nooit meer voor verrassingen in de koelkast te staan en bereid je de lekkerste gerechten met etenswaren die het snelst genuttigd moeten worden.
 Wel zo fijn voor onze planeet 🌍
 
-#### 2.1.4 Minimal-API of REST-API?
+### 2.1.4 Minimal-API of REST-API?
 Chefresh versie 1 is een MVC-applicatie met 3-lagen structuur.
 Dit was nodig om de leeruitkomsten uit semester 2 aan te tonen.
 Nu wil ik de Chefresh app verder optimaliseren en ga ik een API maken die met een losse front-end communiceerd.
 Hiervoor heb ik onderzoek gedaan naar een minimal API (zonder controllers) of een standaard API (met controllers) zie 2.1.6
 
-#### 2.1.5 Front-end
+### 2.1.5 Front-end
 De front-end van Chefresh is gemaakt in ReactJS i.c.m. bootstrap voor react.
 Ik had nog nooit eerder gewerkt met ReactJS dus het was een hele uitdaging om de web-app op de juiste manier te laten functioneren.
 In de frond-end maak ik gebruik van Axios voor het versturen van calls naar de back-end.
@@ -72,7 +72,7 @@ In de frond-end maak ik gebruik van Axios voor het versturen van calls naar de b
 In het begin liep ik tegen het probleem van cross-origin aan en dat mijn front-end daardoor niet kon communiceren met de back-end.
 Na wat aanpassingen in de back-end was dit probleem ook verholpen.
 
-#### 2.1.6 Back-end
+### 2.1.6 Back-end
 Ik heb dit semester opnieuw gekozen voor een backend in C# (.Net6).
 In het 2e semester heb ik ook al met C# (.Net6) gewerkt met een MVC-versie van Chefresh.
 Omdat ik me meer wilde verdiepen in C# heb ik niet gekozen voor een standaard REST-API met controllers aangezien dit te makkelijk zou zijn met het ombouwen van de MVC-applicatie naar een API.
@@ -86,14 +86,14 @@ Zo is het niet mogelijk om een cookie aan te maken in een endpoint, maar uitslui
 Hierdoor heb ik de JWT-token niet als httpOnly-cookie kunnen meesturen en moest ik de token opslaan in de localstorage van de browser.
 Meer hierover heb ik beschreven in mijn onderzoek naar veiligheid.
 
-#### 2.1.7 Beveiliging
+### 2.1.7 Beveiliging
 Best practices voor het opslaan van een JWT in mijn project:<br/>
 Voor mijn project maak ik gebruik van JWT-tokens voor authenticatie.
 Deze tokens moeten ergens worden opgeslagen, dit kan echter op verschillende manieren.
 Dit ben ik verder gaan uitzoeken door er onderzoek naar te doen.
 Iedere manier heeft namelijk zijn voor- en zijn nadelen en deze ga ik behandelen.
 
-#### 2.1.8 Welke manieren zijn er om JWT-tokens te bewaren?
+### 2.1.8 Welke manieren zijn er om JWT-tokens te bewaren?
 **LocalStorage:**
 Het opslaan van de JWT-token in localStorage heeft als voordeel dat het makkelijk toegankelijk is via JavaScript en dus daardoor gemakkelijker te beheren en op te vragen.
 Daarnaast is het persistente opslag, dit houdt in dat zelfs wanneer een browser wordt afgesloten of wanneer een nieuwe tab of verversing van de pagina plaats vindt de gebruiker nog steeds geauthentiseerd is.
@@ -120,7 +120,7 @@ Het nadeel van een “veilige” cookie is dat je deze instelt op HTTPonly, wat 
 Hierdoor kun je de token dus ook niet meer gebruiken in de front-end laag om data uit te halen.
 Maar ook cookies bevatten kwetsbaarheden zoals CSRF-attacks. Het is dus de vraag wat het best werkt voor je applicatie.
 
-#### 2.1.9 Conclusie
+### 2.1.9 Conclusie
 Het bewaren van een JWT-token in een httpOnly cookie is het veiligst. Ik heb daarom ook gekeken of ik dit kan toepassen in mijn persoonlijk project.
 Echter, omdat ik werk met een minimal-API kan ik alleen cookies aanmaken in de "middleware" en niet in mijn endpoints.
 Het probleem is dus dat er dan al een JWT-token moet worden aangemaakt voordat een gebruiker zich kan authentiseren,
@@ -131,20 +131,20 @@ hierdoor ben ik genoodzaakt ben gebruik te maken van localstorage, omdat mijn ap
 <details>
 <summary><b>&nbsp;Groepsproject (Ordinner)</b></summary>
 
-#### 2.1.10 Project beschrijving
+### 2.1.10 Project beschrijving
 Ordinner is een applicatie voor gebruik in de horeca.
 De app is voorzien van meerdere frond-ends en één back-end.
 Zo is er een front-end voor de restaurantgasten die via de web-app een bestelling kunnen plaatsen die vervolgens - via de API - word doorgestuurd naar de front-end voor keuken en bar.
 Het was een hele uitdaging om alle requirements te verwezenlijken, maar met goed teamwork is het wel gelukt.
 De stakeholders zijn bij alle opleveringen erg enthousiast geweest over het opgeleverde werk, en zijn in het hele process ook nauw betrokken geweest.
 
-#### 2.1.11 Front-end
+### 2.1.11 Front-end
 De front-end van Ordinner is geschreven in ReactJS, ik heb me samen met Britt voornamelijk ingespannen voor het front-end gedeelte van de app.
 De front-end is regelmatig aangepast op basis van nieuwe feedback van de stakeholders.
 Omdat we werken in het groepsproject met agile is het project eigenlijk nooit "af", maar is er altijd ruimte voor verbetering.
 Ik heb de samenwerking met Britt als erg prettig ervaren en we mogen bij zijn met het behaalde resultaat.
 
-#### 2.1.12 Back-end
+### 2.1.12 Back-end
 De back-end van Ordinner is geschreven in JAVA spring-boot en er is gebruik gemaakt van hybernate voor het genereren van de database.
 Omdat ik voornamelijk bezig ben geweest met de front-end is er niet een specifiek item uit de back-end wat ik heb gemaakt.
 Wel is er veel overleg geweest tussen Maarten en Janine (team back-end) om nieuwe endpoints te maken die vervolgens gebruikt zouden worden in de front-end.
@@ -182,7 +182,7 @@ Na de eerste keer dat SonarQube de code heeft gescand had de back-end de volgend
 
 ![img.png](images/IPBackEnd-Sonar-1-12-19-53.png)
 
-#### End2End testing
+### 2.2.1 End2End testing
 Om het project end2end te testen heb ik gebruik gemaakt van cypress.<br/>
 Hiervoor heb ik eerst uitgevoerd:
 ```
@@ -212,7 +212,7 @@ Dit zorgt dus voor problemen. Om dit op te lossen heb ik een 'sub'-navbar en hom
 <details>
 <summary><b>&nbsp;Groepsproject (Ordinner)</b></summary>
 
-#### SonarQube
+### 2.2.2 SonarQube
 Om de software kwaliteit van het groepsproject te controleren heb ik gebruik gemaakt van SonarQube.
 Ik heb hiervoor de sonarqube installatie gebruikt van mijn eigen server.<br/>
 Via github-actions wordt er bij iedere push en/of pull-request op de master branch middelds een yaml file een build van het project uitgevoerd en als deze geslaagd is wordt de code doorgestuurd naar het SonarQube dashboard.
@@ -257,20 +257,121 @@ Je keuze voor een methode is gemotiveerd en gebaseerd op goed gedefinieerde sele
 
 ### Hoe heb ik deze leeruitkomst aangetoond:
 
-#### Welke vormen van agile zijn er?
-#### vervolgvragen
+### 2.3.1 Wat is agile?
+"Agile betekent letterlijk – behendigheid, wendbaar of lenigheid.
+Het is een manier van werken waarbij behendigheid voorop staat.
+Een organisatie dat een project uitvoert vanuit de Agile methodiek is ervan bewust dat omstandigheden veranderen, 
+en weet hier slim op in te spelen. Klanttevredenheid staat voorop." [https://leansixsigmagroep.nl/lean-agile-en-six-sigma/wat-is-agile/]
 
-<details>
-<summary><b>&nbsp;Individueel project (Chefresh)</b></summary>
+![Agile Development Cycle](images/agiledevelopment.png)
+
+De 12 basisprincipes van Agile werken zijn vastgelegd in het "Agile manifesto" dat in 2001 door 17 programmeurs is opgesteld.
+Dit zijn de 12 principes [http://agilemanifesto.org/iso/nl/principles.html]:
+1. Onze hoogste prioriteit is het tevredenstellen van de klant door het vroegtijdig en voortdurend opleveren van waardevolle software.
+2. Verwelkom veranderende behoeftes, zelfs laat in het ontwikkelproces. Agile processen benutten verandering tot concurrentievoordeel van de klant.
+3. Lever regelmatig werkende software op. Liefst iedere paar weken, hooguit iedere paar maanden.
+4. Mensen uit de business en ontwikkelaars moeten dagelijks samenwerken gedurende het gehele project.
+5. Bouw projecten rond gemotiveerde individuen. Geef hen de omgeving en ondersteuning die ze nodig hebben en vertrouw erop dat ze de klus klaren.
+6. De meest efficiënte en effectieve manier om informatie te delen in en met een ontwikkelteam is door met elkaar te praten.
+7. Werkende software is de belangrijkste maat voor voortgang.
+8. Agile processen bevorderen constante ontwikkeling. De opdrachtgevers, ontwikkelaars en gebruikers moeten een constant tempo eeuwig kunnen volhouden.
+9. Voortdurende aandacht voor een hoge technische kwaliteit en voor een goed ontwerp versterken agility.
+10. Eenvoud, de kunst van het maximaliseren van het werk dat niet gedaan wordt, is essentieel.
+11. De beste architecturen, eisen en ontwerpen komen voort uit zelfsturende teams.
+12. Op vaste tijden, onderzoekt het team hoe het effectiever kan worden en past vervolgens zijn gedrag daarop aan.
+
+[![Wat is agile werken?](https://img.youtube.com/vi/jppqK9UVWas/0.jpg)](https://www.youtube.com/embed/jppqK9UVWas)
+
+Agile houdt dus in het kort in: Met als doel klanttevredenheid een project uitvoeren en deze middels flexibiliteit, atonomie en feedback verbeteren.
+
+### 2.3.2 Welke vormen van agile zijn er?
+Agile heeft meerder principes en om die toepasbaar te maken zijn er verschillende werkwijzen en deliverymodellen.
+Dit zijn een aantal werkwijzen op een rij:
+1. Scrum
+2. Extreme Programming (XP)
+3. Kanban
+4. Lean Software development 
+5. Feature Driven Developent (FDD)
+6. Scaled agile framework (SAFe)
+7. SNAP (Scaled Network Agile Portfolio)
+8. Agile portfolio management 
+9. Spotify model 
+10. Waterval
+
+Ik heb een aantal wekwijzen uitgewekt omdat deze regelmatig worden gebruikt in softwaredevelopment:
+
+**Scrum:**
+"Scrum is een procesraamwerk dat wordt gebruikt om productontwikkeling en ander kenniswerk te beheren.
+Scrum is empirisch in die zin dat het teams een middel biedt om een hypothese op te stellen over hoe zij denken dat iets werkt, het uit te proberen, na te denken over de ervaring en de juiste aanpassingen te maken.
+Dat wil zeggen, wanneer het raamwerk correct wordt gebruikt.
+Scrum is zo gestructureerd dat teams praktijken uit andere raamwerken kunnen integreren waar ze zinvol zijn voor de context van het team."
+
+kernpunten:
+* Commitment
+* Moed
+* Focus
+* Openheid
+* Respect
+
+**Extreme Programming (XP):**
+"Extreme Programming (XP) is een flexibel raamwerk voor softwareontwikkeling dat tot doel heeft software van hogere kwaliteit en een hogere levenskwaliteit voor het ontwikkelingsteam te produceren.
+XP is het meest specifieke van de agile frameworks met betrekking tot geschikte engineeringpraktijken voor softwareontwikkeling."
+kernpunten:
+* Communicatie
+* Simplisme
+* Feedback
+* Moed
+* Respect
+
+**Kanban:**
+"De Kanban-methode is een middel om stroomsystemen voor kenniswerk te ontwerpen, te beheren en te verbeteren.
+De methode stelt organisaties ook in staat om te beginnen met hun bestaande workflow en evolutionaire verandering te stimuleren.
+Dit kunnen ze doen door hun werkstroom te visualiseren, onderhanden werk (OHW) te beperken en te stoppen met beginnen en beginnen met afmaken.
+De Kanban-methode dankt zijn naam aan het gebruik van kanban - visuele signaleringsmechanismen om onderhanden werk te controleren voor immateriële werkproducten."
+
+kernpunten:
+* Transparant
+* Balans
+* Samenwerking
+* Klant gericht
+* Workflow
+* Leiderschap
+* Begrijpen
+* Akkoord
+* Respect
+
+### 2.3.3 Conclusie
+Agile werken heeft de industrie veranderd door op een andere manier te kijen naar hoe een eindproduct tot stand komt.
+Persoonlijk vind ik het ook een prettige manier van werken omdat je uitgaat van het kunnen van een individu binnen een groep.
+Daarnaast vind ik het erg fijn om ook visueel te werken, zo heb je altijd duidelijk wat er nog gedaan moet worden en wat nog kan worden verbeterd.
+Het enige nadeel aan Agile vind ik dat een project nooit "af" is, er zijn altijd wel punten die verbeterd kunnen worden en ik vind het persoonlijk ook wel fijn om te weten wanneer een project wel "afgerond is".
 
 
-</details>
-<br/>
 <details>
 <summary><b>&nbsp;Groepsproject (Ordinner)</b></summary>
+In het groepsproject maken we gebruik van een mix tussen kanban en scrum.
+We hebben hiervoor gekozen omdat we met kanban de planning inzichtelijk kunnen maken voor iedereen,
+en met scrum werken in spints waardoor we om de 3 weken ons werk kunnen evalueren met een stakeholder.
+De feedback die we daar ontvangen kunnen we dan oppakken in de volgende sprint.
+Hierdoor veranderd ook continu de workflow en maken we een product wat het best aansluit bij de wensen van de stakeholder.
 
+Voor documantatie maken we gebruik van Jira, in Jira hebben we een planbord (Kanban) en staan sprints uitgeschreven met UserStories -> requirments.
+
+voorbeeld van ons board:
+![kanban bord](images/GP-KanbanBoard.png)
+
+voorbeeld van een sprint planning:
+![Sprint planning](images/GP-Sprint_planning.png)
+
+Ook houden we per taak bij hoeveel tijd we verwachten dat de taak zou kosten en hoeveel tijd de taak uiteindleijk aan tijd heeft gekost.
 
 </details>
+
+[https://www.agilealliance.org/resources/books/introduction-agile-methods/]
+[https://www.agilealliance.org/glossary/kanban/#q=~(infinite~false~filters~(postType~(~'page~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'kanban))~searchTerm~'~sort~false~sortDirection~'asc~page~1)]
+[https://www.agilealliance.org/glossary/scrum/#q=~(infinite~false~filters~(postType~(~'page~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'scrum))~searchTerm~'~sort~false~sortDirection~'asc~page~1)]
+[https://www.agilealliance.org/glossary/xp/]
+
 
 
 [⬆️ Terug naar inhoudsopgave](#inhoudsopgave)
@@ -432,18 +533,18 @@ Houd rekening met: Pas je communicatie-, werk- en gedragsstijlen aan om projectb
 <details>
 <summary> Culturele verschillen</summary>
 
-#### 2.5.1 Wat zijn culturele verschillen?
+### 2.5.1 Wat zijn culturele verschillen?
 
-#### 2.5.2 Welke invloed heeft dit in het werkveld?
+### 2.5.2 Welke invloed heeft dit in het werkveld?
 
-#### 2.5.3 Conclusie
+### 2.5.3 Conclusie
 
 </details>
 <br/>
 <details>
 <summary> Ethiek en ICT</summary>
 
-#### 2.5.4 Vraagstukken met betrekking tot softwareontwikkeling
+### 2.5.4 Vraagstukken met betrekking tot softwareontwikkeling
 Omdat ethiek een belangrijke factor is in de ontwikkeling van software en momenteel met de opruk van AI een veelbesroken topic is,
 heb ik de vraag: "Wat zijn ethische vraagstukken met betrekking tot softwareontwikkeling?" gesteld aan de gloednieuwe chat-AI (ChatGPT) van openAI.
 het antwoord van de chatbot was:
@@ -466,7 +567,7 @@ Toegang tot informatie: software kan worden gebruikt om toegang tot informatie t
 bijvoorbeeld door middel van beperkende licenties of digitale rechtenbeheersystemen.
 Het is de verantwoordelijkheid van de softwareontwikkelaar om ervoor te zorgen dat de software niet wordt gebruikt om toegang tot informatie te beperken of te verhinderen voor degenen die er recht op hebben."
 
-#### 2.5.5 Conclusie
+### 2.5.5 Conclusie
 Zoals je ziet, is de technologie al erg ver. Deze chatbot opzich is al een entichse kwestie.
 Gaat de mens niet te ver met de onwikkeling van technoligische inlelligentie, waar houdt het op?
 
@@ -478,11 +579,11 @@ Een mooi voorbeeld is het groepsproject, een restaurant app gemaakt voor gemak e
 Maar het gemak komt ook met een prijs, namelijk dat er ook minder persooneel nodig zal zijn ik het restaurant.
 Onze applicatie zorgt dus indirect ook voor het feit dat mensen die nu een baan hebben deze kwijt gaan raken omdat ze overbodig zijn.
 
-#### 2.5.6 Toepassingen in de applicatie
+### 2.5.6 Toepassingen in de applicatie
 <details>
 <summary><b>&nbsp;Individueel project (Chefresh)</b></summary>
 
-In mijn persoonlijke project (Chefresh) heb ik de volgende punten uit de ACM Code of Ethics and Professional Conduct toegepast [^5]:
+In mijn persoonlijke project (Chefresh) heb ik rekening gehouden met de volgende punten uit de ACM Code of Ethics and Professional Conduct [^5]:
 
 Be honest and trustworthy:
 
@@ -495,7 +596,7 @@ Respect privacy:
 <details>
 <summary><b>&nbsp;Groepsproject (Ordinner)</b></summary>
 
-In het groepsproject (Ordinner) hebben we de volgende punten uit de ACM Code of Ethics and Professional Conduct toegepast [^5]:
+In het groepsproject (Ordinner) hebben we rekening gehouden met de volgende punten uit de ACM Code of Ethics and Professional Conduct [^5]:
 
 Design and implement systems that are robustly and usably secure:
 
@@ -525,7 +626,7 @@ Je evalueert de kwaliteit van het ontwerp (bijvoorbeeld door testen of prototypi
 <details>
 <summary><b>&nbsp;Individueel project (Chefresh)</b></summary>
 
-#### 2.6.1 User stories
+### 2.6.1 User stories
 De user stories heb ik beschreven bij de [issues](https://github.com/LamersBart/S3-Portfolio/issues).
 </br>
 Ik heb voor de user stories het volgende format gebruikt. [^4]
@@ -533,23 +634,23 @@ Ik heb voor de user stories het volgende format gebruikt. [^4]
 * Wil ik: (beschrijving van datgene dat ontwikkeld moet worden)
 * Zodat ik: (beschrijving van de reden waarom dat ontwikkeld moet worden)
 
-#### 2.6.2 Requirements
+### 2.6.2 Requirements
 * Front-end language: ReactJS
 * Back-end language: .NET 6
 * Backend bestaat uit een Minimal API zodat de app ook door derden kan worden geïmplementeerd
 * MySQL Database voor het bijhouden van producten en voorraad
 
-#### 2.6.3 Design
+### 2.6.3 Design
 
 </details>
 <br/>
 <details>
 <summary><b>&nbsp;Groepsproject (Ordinner)</b></summary>
 
-#### 2.6.4 User stories
+### 2.6.4 User stories
 
 
-#### 2.6.5 Design
+### 2.6.5 Design
 Voor het groepsproject heb ik me voornamelijk bezig gehouden met front-end.
 Ik heb hier ook designs en wireframes voor gemaakt.
 Na goedkeuring en opmerkingen van de stakeholders zijn deze designs verwekt tot het eindresultaat
