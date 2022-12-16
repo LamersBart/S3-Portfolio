@@ -280,6 +280,7 @@ Dit zijn de 12 principes [http://agilemanifesto.org/iso/nl/principles.html]:
 12. Op vaste tijden, onderzoekt het team hoe het effectiever kan worden en past vervolgens zijn gedrag daarop aan.
 
 Video:
+
 [![Wat is agile werken?](https://img.youtube.com/vi/jppqK9UVWas/0.jpg)](https://www.youtube.com/embed/jppqK9UVWas)
 
 Agile houdt dus in het kort in: Met als doel klanttevredenheid een project uitvoeren en deze middels flexibiliteit, atonomie en feedback verbeteren.
@@ -527,7 +528,7 @@ Houd rekening met: Pas je communicatie-, werk- en gedragsstijlen aan om projectb
 
 ####
 <details>
-<summary> Culturele verschillen</summary>
+<summary> <b>Culturele verschillen</b></summary>
 
 ### 2.5.1 Wat zijn culturele verschillen?
 
@@ -538,7 +539,7 @@ Houd rekening met: Pas je communicatie-, werk- en gedragsstijlen aan om projectb
 </details>
 <br/>
 <details>
-<summary> Ethiek en ICT</summary>
+<summary> <b>Ethiek en ICT</b></summary>
 
 ### 2.5.4 Vraagstukken met betrekking tot softwareontwikkeling
 Omdat ethiek een belangrijke factor is in de ontwikkeling van software en momenteel met de opruk van AI een veelbesroken topic is,
@@ -665,7 +666,7 @@ idee:
 
 uitwerking:
 
-
+![uitwerking frontend keuken](images/GP-frontend-keuken.png)
 
 </details>
 
