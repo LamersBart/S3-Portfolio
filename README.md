@@ -25,19 +25,13 @@
 * [Bronvermelding](#bronvermelding)
 
 # 1. Introductie
-<details>
-<summary>&nbsp;Uitklappen</summary>
-
 In dit document beschijf ik de leeruitkomsten van semester 3 en hoe ik deze heb aangetoond.<br/>
 Ook kijk ik middels een reflectie terug op dit semester wat ik heb geleerd en wat ik daarvan meeneem naar semster 4.
 
-</details>
+
 
 # 2. Leeruitkomsten
 ## 2.1 Web applicatie
-<details>
-<summary>&nbsp;Uitklappen</summary>
-
 ```
 Je ontwerpt en bouwt gebruiksvriendelijke, full-stack webapplicaties.
 
@@ -45,10 +39,12 @@ Gebruiksvriendelijk: Je past basistechnieken voor het testen en ontwikkelen van 
 
 Full-stack: Je ontwerpt en bouwt een full-stack applicatie met behulp van algemeen aanvaarde front-end (Javascript-gebaseerd framework) en back-endtechnieken (bijv. Object Relational Mapping), waarbij je relevante communicatieprotocollen kiest en implementeert en problemen met asynchrone communicatie aanpakt.
 ```
-
-### Hoe heb ik deze leeruitkomst aangetoond:
 <details>
-<summary><b>&nbsp;Individueel project (Chefresh)</b></summary>
+<summary><b>Hoe heb ik deze leeruitkomst aangetoond</b></summary>
+
+####
+<details>
+<summary><b>Individueel project (Chefresh)</b></summary>
 
 ### 2.1.1 Project beschrijving
 Chefresh is een app die is ontwikkeld in C# met gebruik van een minimale API-backend en een ReactJS-frontend.
@@ -93,7 +89,13 @@ Deze tokens moeten ergens worden opgeslagen, dit kan echter op verschillende man
 Dit ben ik verder gaan uitzoeken door er onderzoek naar te doen.
 Iedere manier heeft namelijk zijn voor- en zijn nadelen en deze ga ik behandelen.
 
-### 2.1.8 Welke manieren zijn er om JWT-tokens te bewaren?
+### 2.1.8 Hoe kan een JWT-Token ik mijn api veiliger maken?
+
+
+### 2.1.9 Wat zijn JWT-Tokens?
+
+
+### 2.1.10 Welke manieren zijn er om JWT-tokens te bewaren?
 **LocalStorage:**
 Het opslaan van de JWT-token in localStorage heeft als voordeel dat het makkelijk toegankelijk is via JavaScript en dus daardoor gemakkelijker te beheren en op te vragen.
 Daarnaast is het persistente opslag, dit houdt in dat zelfs wanneer een browser wordt afgesloten of wanneer een nieuwe tab of verversing van de pagina plaats vindt de gebruiker nog steeds geauthentiseerd is.
@@ -120,7 +122,7 @@ Het nadeel van een “veilige” cookie is dat je deze instelt op HTTPonly, wat 
 Hierdoor kun je de token dus ook niet meer gebruiken in de front-end laag om data uit te halen.
 Maar ook cookies bevatten kwetsbaarheden zoals CSRF-attacks. Het is dus de vraag wat het best werkt voor je applicatie.
 
-### 2.1.9 Conclusie
+### 2.1.11 Conclusie: Wat is de beste manier voor mijn project?
 Het bewaren van een JWT-token in een httpOnly cookie is het veiligst. Ik heb daarom ook gekeken of ik dit kan toepassen in mijn persoonlijk project.
 Echter, omdat ik werk met een minimal-API kan ik alleen cookies aanmaken in de "middleware" en niet in mijn endpoints.
 Het probleem is dus dat er dan al een JWT-token moet worden aangemaakt voordat een gebruiker zich kan authentiseren,
@@ -131,20 +133,20 @@ hierdoor ben ik genoodzaakt ben gebruik te maken van localstorage, omdat mijn ap
 <details>
 <summary><b>&nbsp;Groepsproject (Ordinner)</b></summary>
 
-### 2.1.10 Project beschrijving
+### 2.1.12 Project beschrijving
 Ordinner is een applicatie voor gebruik in de horeca.
 De app is voorzien van meerdere frond-ends en één back-end.
 Zo is er een front-end voor de restaurantgasten die via de web-app een bestelling kunnen plaatsen die vervolgens - via de API - word doorgestuurd naar de front-end voor keuken en bar.
 Het was een hele uitdaging om alle requirements te verwezenlijken, maar met goed teamwork is het wel gelukt.
 De stakeholders zijn bij alle opleveringen erg enthousiast geweest over het opgeleverde werk, en zijn in het hele process ook nauw betrokken geweest.
 
-### 2.1.11 Front-end
+### 2.1.13 Front-end
 De front-end van Ordinner is geschreven in ReactJS, ik heb me samen met Britt voornamelijk ingespannen voor het front-end gedeelte van de app.
 De front-end is regelmatig aangepast op basis van nieuwe feedback van de stakeholders.
 Omdat we werken in het groepsproject met agile is het project eigenlijk nooit "af", maar is er altijd ruimte voor verbetering.
 Ik heb de samenwerking met Britt als erg prettig ervaren en we mogen bij zijn met het behaalde resultaat.
 
-### 2.1.12 Back-end
+### 2.1.14 Back-end
 De back-end van Ordinner is geschreven in JAVA spring-boot en er is gebruik gemaakt van hybernate voor het genereren van de database.
 Omdat ik voornamelijk bezig ben geweest met de front-end is er niet een specifiek item uit de back-end wat ik heb gemaakt.
 Wel is er veel overleg geweest tussen Maarten en Janine (team back-end) om nieuwe endpoints te maken die vervolgens gebruikt zouden worden in de front-end.
@@ -157,16 +159,15 @@ Wel is er veel overleg geweest tussen Maarten en Janine (team back-end) om nieuw
 </details>
 
 ## 2.2 Software kwaliteit
-<details>
-<summary>&nbsp;Uitklappen</summary>
-
 ```
 Je maakt gebruik van software tooling en methodiek die de kwaliteit van de software continu monitort en verbetert tijdens de software ontwikkeling.
 
 Tooling en methodiek: Uitvoeren, monitoren en rapporteren van unit integratie-, regressie- en systeemtesten, met aandacht voor security- en performance aspecten, alsmede het toepassen van statische code analyse en code reviews.
 ```
+<details>
+<summary><b>Hoe heb ik deze leeruitkomst aangetoond</b></summary>
 
-### Hoe heb ik deze leeruitkomst aangetoond:
+####
 <details>
 <summary><b>&nbsp;Individueel project (Chefresh)</b></summary>
 
@@ -246,17 +247,14 @@ Op moment van schrijven (7 december 2022) scooren Reliability, Security Review e
 </details>
 
 ## 2.3 Agile methode
-<details>
-<summary>&nbsp;Uitklappen</summary>
-
 ```
 Je kiest en implementeert de meest geschikte agile software ontwikkelmethode voor je softwareproject.
 
 Kiezen: Je bent op de hoogte van de meest populaire agile methoden en hun onderliggende agile principes.
 Je keuze voor een methode is gemotiveerd en gebaseerd op goed gedefinieerde selectiecriteria en contextanalyses.
 ```
-
-### Hoe heb ik deze leeruitkomst aangetoond:
+<details>
+<summary><b>Hoe heb ik deze leeruitkomst aangetoond</b></summary>
 
 ### 2.3.1 Wat is agile?
 "Agile betekent letterlijk – behendigheid, wendbaar of lenigheid.
@@ -281,6 +279,7 @@ Dit zijn de 12 principes [http://agilemanifesto.org/iso/nl/principles.html]:
 11. De beste architecturen, eisen en ontwerpen komen voort uit zelfsturende teams.
 12. Op vaste tijden, onderzoekt het team hoe het effectiever kan worden en past vervolgens zijn gedrag daarop aan.
 
+Video:
 [![Wat is agile werken?](https://img.youtube.com/vi/jppqK9UVWas/0.jpg)](https://www.youtube.com/embed/jppqK9UVWas)
 
 Agile houdt dus in het kort in: Met als doel klanttevredenheid een project uitvoeren en deze middels flexibiliteit, atonomie en feedback verbeteren.
@@ -353,8 +352,8 @@ Het enige nadeel aan Agile vind ik dat een project nooit "af" is, er zijn altijd
 In het groepsproject maken we gebruik van een mix tussen kanban en scrum.
 We hebben hiervoor gekozen omdat we met kanban de planning inzichtelijk kunnen maken voor iedereen,
 en met scrum werken in spints waardoor we om de 3 weken ons werk kunnen evalueren met een stakeholder.
-De feedback die we daar ontvangen kunnen we dan oppakken in de volgende sprint.
-Hierdoor veranderd ook continu de workflow en maken we een product wat het best aansluit bij de wensen van de stakeholder.
+De feedback die we daar ontvangen kunnen we dan oppakken in de volgende sprint, hierdoor zijn we extra felxibel.
+De workflow veranderd iedere sprint en maken we een product wat het best aansluit bij de wensen van de stakeholder.
 
 Voor documantatie maken we gebruik van Jira, in Jira hebben we een planbord (Kanban) en staan sprints uitgeschreven met UserStories -> requirments.
 
@@ -380,18 +379,17 @@ Ook houden we per taak bij hoeveel tijd we verwachten dat de taak zou kosten en 
 </details>
 
 ## 2.4 CI/CD
-<details>
-<summary>&nbsp;Uitklappen</summary>
-
 ```
 Je ontwerpt en implementeert een (semi)automatisch software release proces dat aansluit bij de noden van de projectcontext.
 
 Ontwerp en implementeer: Je ontwerpt een releaseproces en implementeert een oplossing voor continue integratie en implementatie (met behulp van bijvoorbeeld Gitlab CI en Docker).
 ```
-
-### Hoe heb ik deze leeruitkomst aangetoond:
 <details>
-<summary><b>&nbsp;Individueel project (Chefresh)</b></summary>
+<summary><b>Hoe heb ik deze leeruitkomst aangetoond</b></summary>
+
+####
+<details>
+<summary><b>Individueel project (Chefresh)</b></summary>
 
 Voor de CI/CD heb ik gebruikt gemaakt van Github Actions. De flow van mijn pipeline ziet er als volgt uit:<br/>
 1. Zodra er een nieuwe "push" is op de main branch word de pipeline gestart.
@@ -518,19 +516,16 @@ Zo heb ik eenmalig het project via terminal moeten binnenhalen op de server en h
 </details>
 
 ## 2.5 Culturele verschillen en ethiek
-<details>
-<summary>&nbsp;Uitklappen</summary>
-
 ```
 Je herkent en houdt rekening met culturele verschillen tussen projectstakeholders en ethische aspecten bij softwareontwikkeling.
 
 Herkennen: Erkenning is gebaseerd op theoretisch onderbouwde bewustwording van culturele verschillen en ethische aspecten in software engineering.
 Houd rekening met: Pas je communicatie-, werk- en gedragsstijlen aan om projectbetrokkenen uit verschillende culturen te weerspiegelen; Spreek een van de standaard Ethische Richtlijnen voor Programmeren (bijv. ACM Code of Ethics and Professional Conduct) in je werk aan.
 ```
+<details>
+<summary><b>Hoe heb ik deze leeruitkomst aangetoond</b></summary>
 
-### Hoe heb ik deze leeruitkomst aangetoond:
-
-
+####
 <details>
 <summary> Culturele verschillen</summary>
 
@@ -584,12 +579,7 @@ Onze applicatie zorgt dus indirect ook voor het feit dat mensen die nu een baan 
 <details>
 <summary><b>&nbsp;Individueel project (Chefresh)</b></summary>
 
-In mijn persoonlijke project (Chefresh) heb ik rekening gehouden met de volgende punten uit de ACM Code of Ethics and Professional Conduct [^5]:
-
-Be honest and trustworthy:
-
-
-Respect privacy:
+- rekining houden met eventueel datalek, wat kan daar mee gebeuren denk aan zorgverzekering etc
 
 
 </details>
@@ -597,9 +587,7 @@ Respect privacy:
 <details>
 <summary><b>&nbsp;Groepsproject (Ordinner)</b></summary>
 
-In het groepsproject (Ordinner) hebben we rekening gehouden met de volgende punten uit de ACM Code of Ethics and Professional Conduct [^5]:
-
-Design and implement systems that are robustly and usably secure:
+- rekening houden het onstlag van mensen omdat onze app deze mensen werkeloos maakt.
 
 
 
@@ -613,17 +601,16 @@ Design and implement systems that are robustly and usably secure:
 </details>
 
 ## 2.6 Requirements en design
-<details>
-<summary>&nbsp;Uitklappen</summary>
-
 ```
 Je analyseert (niet-functionele) requirements, werkt (architecturale) ontwerpen uit en valideert deze met behulp van meerdere soorten testtechnieken.
 
 Meerdere soorten testtechnieken: Je past gebruikersacceptatietesten en feedback van belanghebbenden toe om de kwaliteit van de vereisten te valideren.
 Je evalueert de kwaliteit van het ontwerp (bijvoorbeeld door testen of prototyping) rekening houdend met de geformuleerde kwaliteitseigenschappen zoals veiligheid en prestatie.
 ```
+<details>
+<summary><b>Hoe heb ik deze leeruitkomst aangetoond</b></summary>
 
-### Hoe heb ik deze leeruitkomst aangetoond:
+####
 <details>
 <summary><b>&nbsp;Individueel project (Chefresh)</b></summary>
 
@@ -643,13 +630,23 @@ Ik heb voor de user stories het volgende format gebruikt. [^4]
 
 ### 2.6.3 Design
 
+#### conceptueel model
+
+![Conceptueel Model (ERD)](images/Individueel-Project-Chefresh-ERD-Conceptueel-Model.png)
+
+#### C4-Model
+
+![C4-Model](images/Individueel-Project-Chefresh-C4-model.png)
+
 </details>
 <br/>
 <details>
 <summary><b>&nbsp;Groepsproject (Ordinner)</b></summary>
 
 ### 2.6.4 User stories
+User-stories staan bescheven in Jira:
 
+![user stories](images/GP-UserStories.png)
 
 ### 2.6.5 Design
 Voor het groepsproject heb ik me voornamelijk bezig gehouden met front-end.
@@ -660,6 +657,16 @@ Wireframe <a href="https://www.sketch.com/s/8c5fc696-7497-4b51-8202-7c120f0a2fe2
 
 ![img.png](images/GP-wireframe.png)
 
+Daarnaast heb ik ook het design werk van Janine uitgevoerd tot een eindproduct, denk aan het keuken dashboard van ons groepsproject;
+
+idee:
+
+![idee Janine keuken](images/GP-idee-janine-keuken.png)
+
+uitwerking:
+
+
+
 </details>
 
 [⬆️ Terug naar inhoudsopgave](#inhoudsopgave)
@@ -667,9 +674,6 @@ Wireframe <a href="https://www.sketch.com/s/8c5fc696-7497-4b51-8202-7c120f0a2fe2
 </details>
 
 ## 2.7 Business processen
-<details>
-<summary>&nbsp;Uitklappen</summary>
-
 ```
 Je analyseert en beschrijft eenvoudige bedrijfsprocessen die gerelateerd zijn aan jouw project.
 
@@ -679,8 +683,10 @@ of
 
 Bedrijfsprocessen die nodig zijn voor het succes van uw softwareontwikkelingsproject (bijv. productrelease, marktrelease, financiële zekerheid).
 ```
+<details>
+<summary><b>Hoe heb ik deze leeruitkomst aangetoond</b></summary>
 
-### Hoe heb ik deze leeruitkomst aangetoond:
+####
 <details>
 <summary><b>&nbsp;Groepsproject (Ordinner)</b></summary>
 
@@ -692,26 +698,46 @@ Bedrijfsprocessen die nodig zijn voor het succes van uw softwareontwikkelingspro
 </details>
 
 ## 2.8 Professioneel
-<details>
-<summary>&nbsp;Uitklappen</summary>
-
 ```
 Je handelt op een professionele manier tijdens het ontwikkelen en leren van software.
 
 Professionele manier: Je vraagt en past actief feedback toe van stakeholders en adviseert hen over de meest optimale technische en ontwerpende (bouwkundige) oplossingen.
 Je kiest en onderbouwt oplossingen voor een gegeven probleem.
 ```
+<details>
+<summary><b>Hoe heb ik deze leeruitkomst aangetoond</b></summary>
 
-### Hoe heb ik deze leeruitkomst aangetoond:
+####
 <details>
 <summary><b>&nbsp;Individueel project (Chefresh)</b></summary>
 
+Ik heb dit semester diverse gesprekken gehad met Jean Paul over het individueel project en over mijn omstandigheden thuis.
+Zo heb ik op tijd aan gegeven vast te lopen op het bedenken van een nieuw idee en heb ik besproken hoe ik toch een uitdaging kan hebben bij het overdoen van mijn project uit semster 2.
+Zie hieronder een screenshot van feedpusle:
+
+![feedpulse Jean Paul](images/IP-Feedpulse-Jean_Paul.png)
 
 </details>
 <br/>
 <details>
 <summary><b>&nbsp;Groepsproject (Ordinner)</b></summary>
 
+Ik heb in dit semester een fijne samenwerking gehad met het projectgroepje (Britt, Cas, Janine en Maarten).
+We hebben goed met elkaar overlegd en dat heeft geresulteerd in een mooi eindresultaat.
+Af en toe had ik moeite met om 09:00 uur op school te zijn, ook dit is met elkaar besproken en zijn we uit gekomen.
+Iederen heeft even hard gewerkt aan het groepsproject en er zijn geen vervelende momenten geweest.
+
+Ik had dit semster wel meer gesprekken mogen voeren met Samuil, dat is er een beetje tussenin geschoten.
+In een volgend semster zou ik dat beter aanpakken.
+Hieronder een screenshot van feedpulse:
+
+![feedpulse Samuil](images/GP-Feedpulse-Samuil.png)
+
+
+Ook aan de peer2peer beoordeling is de zien dat de samerwerking goed is verlopen.
+Hieronder een screenshot van feedpulse:
+
+![feedpulse groepsproject](images/GP-Feedpulse-Groepsproject.png)
 
 </details>
 
@@ -720,16 +746,11 @@ Je kiest en onderbouwt oplossingen voor een gegeven probleem.
 </details>
 
 ## 3. Reflectie
-<details>
-<summary>&nbsp;Uitklappen</summary>
-
 Ik heb het derde semester als zeer leerzaam ervaren. Ik heb veel plezier gehad met het groepsproject, onder andere door het fijne team maar ook de leuke opdracht.
 Daarnaast heb ik veel geleerd en toegepast, denk aan ReactJS (zowel bij IP als GP) en het gebruik van een minimal-API. Ook de onderzoeken naar beveiliging hebben me veel gebracht.
 Ik weet nu wat de beste manier is om een JWT-token te gebruiken en hoe ik op die manier een veilige API kan bouwen. Dit was mijn nog niet gelukt in semester 1 en 2.
 
 [⬆️ Terug naar inhoudsopgave](#inhoudsopgave)
-
-</details>
 
 ### Bronvermelding
 [^1]: [bron: tkacz.pro](https://tkacz.pro/how-to-securely-store-jwt-tokens/)
