@@ -281,6 +281,7 @@ Dit zijn de 12 principes [http://agilemanifesto.org/iso/nl/principles.html]:
 
 Video:
 
+
 [![Wat is agile werken?](https://img.youtube.com/vi/jppqK9UVWas/0.jpg)](https://www.youtube.com/embed/jppqK9UVWas)
 
 Agile houdt dus in het kort in: Met als doel klanttevredenheid een project uitvoeren en deze middels flexibiliteit, atonomie en feedback verbeteren.
@@ -359,9 +360,11 @@ De workflow veranderd iedere sprint en maken we een product wat het best aanslui
 Voor documantatie maken we gebruik van Jira, in Jira hebben we een planbord (Kanban) en staan sprints uitgeschreven met UserStories -> requirments.
 
 voorbeeld van ons board:
+
 ![kanban bord](images/GP-KanbanBoard.png)
 
 voorbeeld van een sprint planning:
+
 ![Sprint planning](images/GP-Sprint_planning.png)
 
 Ook houden we per taak bij hoeveel tijd we verwachten dat de taak zou kosten en hoeveel tijd de taak uiteindleijk aan tijd heeft gekost.
@@ -580,17 +583,28 @@ Onze applicatie zorgt dus indirect ook voor het feit dat mensen die nu een baan 
 <details>
 <summary><b>&nbsp;Individueel project (Chefresh)</b></summary>
 
-- rekining houden met eventueel datalek, wat kan daar mee gebeuren denk aan zorgverzekering etc
+Met chefresh moet ik vooral rekening houden dat de data goed beveiligt is en blijft.
+Gezien het hier om redelijk sensitieve data gaat wil je niet dat dit op straat komt te liggen.
+casus: stel een gebruiker heeft de afgelopen 5 jaar vastgelegd wat hij heeft gegeten / op voorraad heeft.
+Mocht deze data op straat komen te liggen en bijvoorbeeld een zorgverzekeraar gaat er mee aan de haal zou die zomaar de premie kunnen aanpassen omdat de persoon in kewestie te ongezond of slecht zou eten.
+Dat is een scenario wat je koste wat het kost wilt voorkomen. Maar het is helaas ook niet mogelijk alle data volledig te annominiseren.
 
+Ook heb ik het formulier op canvas ingeveuld voor mijn project:
+
+![ethics](images/IP-ethics.png)
 
 </details>
 <br/>
 <details>
 <summary><b>&nbsp;Groepsproject (Ordinner)</b></summary>
 
-- rekening houden het onstlag van mensen omdat onze app deze mensen werkeloos maakt.
+Met Ordinner moeten we vooral reking houden met de impact die de app heeft voor de structuur binnen een bedrijf.
+Zo zullen er ontslagen vallen onder het barpersoneel omdat deze minder taken hoeven uit te voeren.
+En zal er sowiezo een verandring komen voor de werkzaamheden van het personeel wat wel blijft werken.
 
+Ook heb ik het formulier op canvas ingeveuld voor het groepsproject:
 
+![ethics](images/GP-ethics.png)
 
 </details>
 
@@ -631,11 +645,11 @@ Ik heb voor de user stories het volgende format gebruikt. [^4]
 
 ### 2.6.3 Design
 
-#### conceptueel model
+#### conceptueel model:
 
 ![Conceptueel Model (ERD)](images/Individueel-Project-Chefresh-ERD-Conceptueel-Model.png)
 
-#### C4-Model
+#### C4-Model:
 
 ![C4-Model](images/Individueel-Project-Chefresh-C4-model.png)
 
@@ -660,13 +674,21 @@ Wireframe <a href="https://www.sketch.com/s/8c5fc696-7497-4b51-8202-7c120f0a2fe2
 
 Daarnaast heb ik ook het design werk van Janine uitgevoerd tot een eindproduct, denk aan het keuken dashboard van ons groepsproject;
 
-idee:
+#### idee:
 
 ![idee Janine keuken](images/GP-idee-janine-keuken.png)
 
-uitwerking:
+#### uitwerking:
 
 ![uitwerking frontend keuken](images/GP-frontend-keuken.png)
+
+#### C4-Model:
+
+![C4 model Ordinner](images/OrDinner-C4-Model.png)
+
+#### Database diagram:
+
+![Database diagram](images/GP-ordinner-database-diagram.png)
 
 </details>
 
@@ -691,6 +713,28 @@ Bedrijfsprocessen die nodig zijn voor het succes van uw softwareontwikkelingspro
 <details>
 <summary><b>&nbsp;Groepsproject (Ordinner)</b></summary>
 
+Voor het groepsproject heb ik een business process van de Bar gemaakt.
+Van dit process heb ik twee versies gemaakt, een zonder het gebruik van onze app en een met gebruik van onze app.
+
+Met app:
+
+![with-app](images/GP-BusinessProcces_bar_with_app.png)
+
+Zonder app:
+
+![without-app](images/GP-BusinessProcces_bar_without_app.png)
+
+Conclusie:
+
+Met gebruik van onze app zal je minder bar-personeel nodig hebben dan zonder het begruik van onze app.
+Dit is duidelijk te zien in het aantal handelingen dat aanzienelijk minder is voor het bar-personeel met de app.
+Naast dat dit efficentie met zich meebrengt voor het hele procces brengt dit ook etichse bezwaren met zich mee.
+Een gedeelte van het bar-personeel zal zijn baan verliezen en de rest zal een andere werkwijze / handelingen moeten accepteren.
+
+Tijdens het vragen van feedback aan Samuil heeft samuil ook laten zien dat ik bepaalde elementen in mijn diagram had kunnen verbeteren door gebuik te maken van het "Business Process Model and Notation".
+In dit model word niet gebuik gemaakt van een ja -> nee situatie als er bijvoorbeeld gewacht moet worden,
+dan word er een icoontje van een klok gebruikt.
+Deze notatie zal ik dan ook zeker de volgende keer wanneer ik een business proces moet maken gebruiken.
 
 </details>
 
