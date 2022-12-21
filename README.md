@@ -716,15 +716,15 @@ Bedrijfsprocessen die nodig zijn voor het succes van uw softwareontwikkelingspro
 Voor het groepsproject heb ik een business process van de Bar gemaakt.
 Van dit process heb ik twee versies gemaakt, een zonder het gebruik van onze app en een met gebruik van onze app.
 
-Met app:
+#### Met app:
 
 ![with-app](images/GP-BusinessProcces_bar_with_app.png)
 
-Zonder app:
+#### Zonder app:
 
 ![without-app](images/GP-BusinessProcces_bar_without_app.png)
 
-Conclusie:
+#### Conclusie:
 
 Met gebruik van onze app zal je minder bar-personeel nodig hebben dan zonder het begruik van onze app.
 Dit is duidelijk te zien in het aantal handelingen dat aanzienelijk minder is voor het bar-personeel met de app.
