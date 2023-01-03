@@ -1,11 +1,5 @@
-<h1 align="center">
-  Semester 3
-  <br/>
-  Portfolio
-</h1>
-<h3 align="center">
-  Bart Lamers
-</h3>
+<h1 align="center">Semester 3<br/>Portfolio</h1>
+<h3 align="center">Bart Lamers</h3>
 <br/>
 
 <p align="center"><img alt="" src="https://c.tenor.com/_DOBjnGspYAAAAAC/code-coding.gif"/></p>
@@ -82,20 +76,86 @@ Zo is het niet mogelijk om een cookie aan te maken in een endpoint, maar uitslui
 Hierdoor heb ik de JWT-token niet als httpOnly-cookie kunnen meesturen en moest ik de token opslaan in de localstorage van de browser.
 Meer hierover heb ik beschreven in mijn onderzoek naar veiligheid.
 
-### 2.1.7 Beveiliging
-Best practices voor het opslaan van een JWT in mijn project:<br/>
-Voor mijn project maak ik gebruik van JWT-tokens voor authenticatie.
+### 2.1.7 Hoe kan ik mijn api beveiligen tegen ongeautoriseerde toegang?
+Om dit uit te zoeken heb ik onderzoek gedaan naar welke manieren er mogelijk zijn om mijn API zo goed mogelijk te beveiligen tegen ongeautoriseerde toegang.
+Middels dit onderzoek ben ik er achter gekomen dat er erg veel manieren zijn om een API beter te beveiligen.
+
+### 2.1.8 Welke manieren zijn er?
+Allereerst kwam ik in het onderzoek tegen dat en verschillende design principles zijn voor het bouwen van een API.
+Hierdoor kwam ik er achter dat ik een gedeelte van die principles al heb toegepast.
+[https://restfulapi.net/security-essentials/]
+[https://www.f5.com/labs/learning-center/securing-apis-10-best-practices-for-keeping-your-data-and-infrastructure-safe]
+
+Denk aan:
+
+**SSL/TSL:**
+Mijn applicatie zowel front-end als back-end maken gebruik van SSL,
+hierdoor is de informatie die tussen de API en client worden verstuurd versleuteld.
+
+**Wachtwoord hashing:**
+De wachtwoorden in mijn app worden gehashed opgeslagen.
+Dit voorkomt dat wachtwoorden leesbaar worden opgeslagen in de database.
+
+**Hou het simpel:**
+Ik heb geen onnodige end-points of extra moeilijke end-points gemaakt. Het doel is en blijft een CRUD applicatie.
+Het onnodig moeilijk maken van een end-point kan ook de beveiliging schaden.
+
+**Geef nooit informatie over URL's vrij:**
+In de URL's staan geen data zoals wachtwoorden, gebruikersnamen, emailadressen etc.
+Alles wordt uitsluitend via de body meegestuurd van de front-end naar de back-end.
+
+**Validatie op invoerparameters:**
+Er vind valitatie op de invoer plaats. Als een gebuiker verkeerde data invoerd krijgt de frond-ent ook een juiste status terug van de back-end.
+Het is ook onmogelijk om een verzoek te doen als de parameters niet kloppen.
+
+Daarnaast zijn er extra mogelijkheden om een API beter te beveiligen.
+
+Zoals: **OAuth** en **Jason Web Token (JWT)**
+
+### 2.1.9 Wat is OAuth?
+"OAuth (Open Authorization) - vaak geschreven als de nieuwste versie OAuth 2.0 - is een protocol dat wordt gebruikt om een gebruiker te authenticeren via een authenticatieserver.
+
+Een van de handige dingen van OAuth is dat u accounttoegang op een veilige manier kunt delegeren zonder inloggegevens te delen.
+In plaats van inloggegevens vertrouwt OAuth op toegangstokens.
+
+Met behulp van toegangstokens kan een clienttoepassing de identiteit verifiëren van de gebruiker die zichzelf heeft geverifieerd." [https://supertokens.com/blog/oauth-vs-jwt#]
+
+**Voordelen van OAuth:**
+
+- Het is een industrie standaard voor authenticatie.
+- Er zijn veel plug-en-play opties voor implementatie.
+- OAuth is bewezen veilig en veel getest.
+- OAuth kan gebruikt worden met bijna alle codeer-talen.
+
+**Nadelen van OAuth:**
+
+- OAuth is erg gecompliceerd.
+- Lagere end-user privacy (denk aan de autnenticatie via een google server).
+- In sommige applicaties is het over-kill.
+- Geen sessie-mangement oplossing.
+
+### 2.1.10 Wat zijn JWT-Tokens?
+"Een JWT is een token dat wordt gegenereerd door de authenticatieserver en de informatie van de eindgebruiker bevat (zoals gebruikers-ID, e-mail, enz.).
+De informatie is in JSON-indeling en kan efficiënt worden geverifieerd door de client met behulp van cryptografie." [https://supertokens.com/blog/oauth-vs-jwt#]
+
+**Voordelen van JWT-Tokens:**
+
+- JWT zijn opzichzelf staand.
+- JWT biedt sterke veiligheidsgaranties.
+- JWT's worden alleen op de client opgeslagen.
+- Ze zijn efficiënt en snel te verifiëren.
+
+**Nadelen van JWT-Tokens:**
+
+- Je kunt JWT's niet intrekken zonder veel extra technische implentatie, denk aan blacklisting.
+- Het is gemakkelijk om beveiligings lekken te creëren terwijl je één geheim veilig houdt.
+
+### 2.1.11 Welke manieren zijn er om JWT-tokens te bewaren?
+Voor mijn project wil ik gebruik gaan maken van JWT-tokens voor authenticatie.
 Deze tokens moeten ergens worden opgeslagen, dit kan echter op verschillende manieren.
-Dit ben ik verder gaan uitzoeken door er onderzoek naar te doen.
+Dit ben ik verder gaan uitzoeken middels onderzoek.
 Iedere manier heeft namelijk zijn voor- en zijn nadelen en deze ga ik behandelen.
 
-### 2.1.8 Hoe kan een JWT-Token ik mijn api veiliger maken?
-
-
-### 2.1.9 Wat zijn JWT-Tokens?
-
-
-### 2.1.10 Welke manieren zijn er om JWT-tokens te bewaren?
 **LocalStorage:**
 Het opslaan van de JWT-token in localStorage heeft als voordeel dat het makkelijk toegankelijk is via JavaScript en dus daardoor gemakkelijker te beheren en op te vragen.
 Daarnaast is het persistente opslag, dit houdt in dat zelfs wanneer een browser wordt afgesloten of wanneer een nieuwe tab of verversing van de pagina plaats vindt de gebruiker nog steeds geauthentiseerd is.
@@ -122,31 +182,33 @@ Het nadeel van een “veilige” cookie is dat je deze instelt op HTTPonly, wat 
 Hierdoor kun je de token dus ook niet meer gebruiken in de front-end laag om data uit te halen.
 Maar ook cookies bevatten kwetsbaarheden zoals CSRF-attacks. Het is dus de vraag wat het best werkt voor je applicatie.
 
-### 2.1.11 Conclusie: Wat is de beste manier voor mijn project?
+### 2.1.12 Conclusie: Wat is de beste manier voor mijn project?
 Het bewaren van een JWT-token in een httpOnly cookie is het veiligst. Ik heb daarom ook gekeken of ik dit kan toepassen in mijn persoonlijk project.
 Echter, omdat ik werk met een minimal-API kan ik alleen cookies aanmaken in de "middleware" en niet in mijn endpoints.
 Het probleem is dus dat er dan al een JWT-token moet worden aangemaakt voordat een gebruiker zich kan authentiseren,
 hierdoor ben ik genoodzaakt ben gebruik te maken van localstorage, omdat mijn applicatie wel persistente opslag van de token vereist. [^1], [^2], [^3].
+
+Als ik van plan ben om een grotere applicatie te gaan maken ga ik me zeker verder verdiepen in OAuth of zelfs een combinatie van OAuth en JWT voor de beste manier van beveliging.
 
 </details>
 <br/>
 <details>
 <summary><b>&nbsp;Groepsproject (Ordinner)</b></summary>
 
-### 2.1.12 Project beschrijving
+### 2.1.13 Project beschrijving
 Ordinner is een applicatie voor gebruik in de horeca.
 De app is voorzien van meerdere frond-ends en één back-end.
 Zo is er een front-end voor de restaurantgasten die via de web-app een bestelling kunnen plaatsen die vervolgens - via de API - word doorgestuurd naar de front-end voor keuken en bar.
 Het was een hele uitdaging om alle requirements te verwezenlijken, maar met goed teamwork is het wel gelukt.
 De stakeholders zijn bij alle opleveringen erg enthousiast geweest over het opgeleverde werk, en zijn in het hele process ook nauw betrokken geweest.
 
-### 2.1.13 Front-end
+### 2.1.14 Front-end
 De front-end van Ordinner is geschreven in ReactJS, ik heb me samen met Britt voornamelijk ingespannen voor het front-end gedeelte van de app.
 De front-end is regelmatig aangepast op basis van nieuwe feedback van de stakeholders.
 Omdat we werken in het groepsproject met agile is het project eigenlijk nooit "af", maar is er altijd ruimte voor verbetering.
 Ik heb de samenwerking met Britt als erg prettig ervaren en we mogen bij zijn met het behaalde resultaat.
 
-### 2.1.14 Back-end
+### 2.1.15 Back-end
 De back-end van Ordinner is geschreven in JAVA spring-boot en er is gebruik gemaakt van hybernate voor het genereren van de database.
 Omdat ik voornamelijk bezig ben geweest met de front-end is er niet een specifiek item uit de back-end wat ik heb gemaakt.
 Wel is er veel overleg geweest tussen Maarten en Janine (team back-end) om nieuwe endpoints te maken die vervolgens gebruikt zouden worden in de front-end.
