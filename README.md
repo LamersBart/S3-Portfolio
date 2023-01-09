@@ -623,7 +623,9 @@ Er zijn verschillende theorieen over culturele verschillen zoals de hofstede the
 word gedefinieerd als de mate waarin minder machtige leden van organisaties of instituties (zoals familie) het accepteren en verwachten dat macht onevenredig verdeeld is.
 De aanname is dat het niveau van ongelikheid zowel door leiders als volgers word goedgekeurd.
 Er kan sprake zin van een kleine ofwel een grote power distance.
+
 • Een land met een kleine power distance word gekenmerkt door het gelijk behandelen van iedereen; oudere mensen worden nauwelilks gerespecteerd en kinderen worden behandeld als geliken. Op het gebied van de overheid geld de stem van de meerderheid en corruptie komt nauwelliks voor.
+
 • Een grote power distance kent just wel een hierarchische samenleving met ongelijkheid en corruptie. Ook gehoorzamen kinderen hun ouders in grotere mate en is er meer respect richting ouderen.
 
 **Uncertainty Avoidence:**
@@ -632,8 +634,11 @@ Het geeft een indicatie van in hoeverre leden van een samenleving zich (on)comfo
 Ongestructureerde situaties worden omschreven als nieuwe, niet bekende, verassende en anders dan normale situaties.
 Culturen die zich hier oncomfortabel bij voelen zullen deze situaties proberen te vermijden door strikte gedragscodes, wetgeving en regels.
 In culturen met en sterke uncertainty avoidance ziet men ook vaak dat men meer emotioneel is en gemotiveerd word door innerlijke angst.
-Het tegenovergestelde type is meer tolerant tegenover meningen van anderen. Hosted onderscheidde weer een zwakke en een sterke uncertainty avoidance in samenlevingen:
+Het tegenovergestelde type is meer tolerant tegenover meningen van anderen. 
+Hofstede onderscheidde weer een zwakke en een sterke uncertainty avoidance in samenlevingen:
+
 • Bij een zwakke uncertainty avoidance word elke dag genomen zoals die komt, is er weinig stress/angst. Op het gebied van overheid worden inwoners gezien als competent tegenover autoriteiten.
+
 • Bij een sterke uncertainty avoidance word de onzekerheid in het leven gevoeld als een continue dreiging die aangevochten met worden, is er meer stress/angst. Op het gebied van overheid is er een emotionele behoefte aan regels, ook al worden deze niet nageleefd en worden de inwoners als incompetent gezien tegenover de autoriteiten.
 
 **Masculinity vs Feminity:** 
