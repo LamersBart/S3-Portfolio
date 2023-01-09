@@ -664,17 +664,22 @@ Shiraev, E. B., & Levy, D. A. (2017). Cross-Cultural psychology. Critical thinki
 Athena Summary. (2020). Culturele Psychologie: Samenvatting van de stof, Tilburg University. (TSB-TiU-007).
 
 ### 2.5.3 Voorbeelden van culturele verschillen die ik in mijn studie of leven heb ervaren. Hoe verklaar ik deze verschillen?
-In 2013 ben ik op maatschappelijke stage in Mongolië geweest. Ik heb daar toen twee weken engelse les gegeven aan kinderen in een weeshuis.
-Daarnaast hebben we ook leuke dingen gedaan met de kinderen daar en heb ik veel van het land gezien. In mongolie hebben ze een meer collectivistische cultuur dan in Nederland.
-Zelfs mensen die niets hebben helpen elkaar met de kleinste dingen. Buiten dat heeft mongolie ook een andere kant dat van het nomade-leven wat weer heel erg op zelfvoorzienend gericht is.
+In 2013 ben ik op maatschappelijke stage in Mongolië geweest.
+Ik heb daar toen twee weken engelse les gegeven aan kinderen in een weeshuis.
+Daarnaast hebben we ook leuke dingen gedaan met de kinderen daar en heb ik veel van het land gezien.
+In mongolie hebben ze een meer collectivistische cultuur dan in Nederland.
+Zelfs mensen die niets hebben helpen elkaar met de kleinste dingen.
+Buiten dat heeft mongolie ook een andere kant dat van het nomade-leven wat weer heel erg op zelfvoorzienend gericht is.
 Mongolië kent net als veel andere aziatische landen een hogre power distance en het is vaak onbeleefd om "nee" te zeggen.
 Het was een hele bijzondere ervaring om deze verschillen te ervaren en mee te nemen met mijn manier van leven.
 
 ![nederland-mongolie](images/Nederland-vs-Mongolie.png)
-*Data van mongolie is afkomstig van: https://www.ijtsrd.com/papers/ijtsrd31470.pdf
+*Data van mongolië is afkomstig van: https://www.ijtsrd.com/papers/ijtsrd31470.pdf
 
-### 2.5.4 Wat is mijn cultuur?
-![nederland](images/hofstede-nederland.png)
+
+[//]: # (### 2.5.4 Wat is mijn cultuur?)
+
+[//]: # (![nederland]&#40;images/hofstede-nederland.png&#41;)
 
 
 </details>
