@@ -620,39 +620,37 @@ DOT-Framework:
 Er zijn verschillende theorieen over culturele verschillen zoals de hofstede theorie, ik ga hier dan ook verder op in.
 
 **Power Distance:**
-word gedefinieerd als de mate waarin minder machtige leden van organisaties of instituties (zoals familie) het accepteren en verwachten dat macht onevenredig verdeeld is.
-De aanname is dat het niveau van ongelikheid zowel door leiders als volgers word goedgekeurd.
-Er kan sprake zin van een kleine ofwel een grote power distance.
+Power Distance (machtsafstand) is gerelateerd aan hoe er in een cultuur wordt omgegaan met verschillen in macht. Met Power Distance wordt de mate bedoeld waarin minder machtige leden (volgers) van organisaties of instituties (zoals familie) het accepteren en verwachten dat de macht asymmetrisch of ongelijk verdeeld is ten opzichte van de machtigere leden (leiders). De aanname bij een grote power distance is dat de mate van ongelijkheid door zowel volgers als leiders wordt goedgekeurd.
 
-• Een land met een kleine power distance word gekenmerkt door het gelijk behandelen van iedereen; oudere mensen worden nauwelilks gerespecteerd en kinderen worden behandeld als geliken. Op het gebied van de overheid geld de stem van de meerderheid en corruptie komt nauwelliks voor.
+Binnen een cultuur kan sprake zijn van een kleine of een grote power distance.
 
-• Een grote power distance kent just wel een hierarchische samenleving met ongelijkheid en corruptie. Ook gehoorzamen kinderen hun ouders in grotere mate en is er meer respect richting ouderen.
+• Een cultuur met een kleine power distance onderscheidt zich door het gelijk behandelen van iedereen; oudere mensen worden niet bijzonder gerespecteerd en kinderen worden behandeld als gelijken. Op het gebied van de overheid geldt de stem van de meerderheid en corruptie komt nauwelijks voor.
 
-**Uncertainty Avoidence:**
-of ook wel het vermijden van onzekere situaties, gaat over de manier waarop een samenleving omgaat met de tolerantie die zij hebben voor ambiguîteit.
-Het geeft een indicatie van in hoeverre leden van een samenleving zich (on)comfortabel voelen tegenover ongestructureerde situaties.
-Ongestructureerde situaties worden omschreven als nieuwe, niet bekende, verassende en anders dan normale situaties.
-Culturen die zich hier oncomfortabel bij voelen zullen deze situaties proberen te vermijden door strikte gedragscodes, wetgeving en regels.
-In culturen met en sterke uncertainty avoidance ziet men ook vaak dat men meer emotioneel is en gemotiveerd word door innerlijke angst.
-Het tegenovergestelde type is meer tolerant tegenover meningen van anderen. 
-Hofstede onderscheidde weer een zwakke en een sterke uncertainty avoidance in samenlevingen:
+• Een cultuur met een grote power distance kent just wel een hiërarchische samenleving met ongelijkheid en corruptie. Binnen zo een cultuur gehoorzamen kinderen hun ouders in grotere mate en is er meer respect richting ouderen.
 
-• Bij een zwakke uncertainty avoidance word elke dag genomen zoals die komt, is er weinig stress/angst. Op het gebied van overheid worden inwoners gezien als competent tegenover autoriteiten.
+**Uncertainty Avoidance:**
+Uncertainty Avoidance (het vermijden van onzekere situaties) gaat over de manier waarop een samenleving omgaat met de tolerantie die zij hebben voor ongestructureerde situaties. Het geeft een indicatie van de mate waarin leden van een samenleving zich (on)comfortabel voelen ten opzichte van ongestructureerde situaties. Met ongestructureerde situaties worden nieuwe, niet bekende, verassende en anders dan normale situaties bedoeld.
+Culturen die zich daar oncomfortabel bij voelen, proberen deze situaties te vermijden door strikte gedragscodes, wetgeving en regels. In culturen met een hoge mate van uncertainty avoidance komt het vaak voor dat men meer emotioneel is en gemotiveerd word vanuit innerlijke angst.
+Het tegenovergestelde type is meer tolerant tegenover meningen van anderen. Hofstede maakt onderscheid in een zwakke en een sterke uncertainty avoidance:
 
-• Bij een sterke uncertainty avoidance word de onzekerheid in het leven gevoeld als een continue dreiging die aangevochten met worden, is er meer stress/angst. Op het gebied van overheid is er een emotionele behoefte aan regels, ook al worden deze niet nageleefd en worden de inwoners als incompetent gezien tegenover de autoriteiten.
+• Bij een zwakke uncertainty avoidance word elke dag genomen zoals die komt, is er weinig stress/angst. Op het gebied van overheid worden inwoners gezien als competent tegen opzichte van autoriteiten.
 
-**Masculinity vs Feminity:** 
-verwist naar de rollenverdeling tussen gender in en samenleving.
-Uit de gegevens van IBM kwam naar voren dat mannen en vrowen andere warden hebben.
-Mannen zijn meer gericht op assertiviteit en competitiviteit en vrouwen zijn meer gericht op verzorgen en bescheidenheid.
-De assertieve poule word masculiniteit genoemd en de verzorgende poule feminisme.
-In Japan is bijvoorbeeld masculiniteit hoog en in Nederland just laag.
+• Bij een sterke uncertainty avoidance wordt de onzekerheid in het leven gevoeld als een continue dreiging en is er meer stress/angst. Op het gebied van overheid is er een emotionele behoefte aan regels, ook al worden deze niet nageleefd en worden de inwoners als incompetent gezien tegenover de autoriteiten.
 
-**Induvilusm / Collectivism:**
-Individualisme is het tegenovergestelde van collectivisme en gat over de mate waarin mensen geïntegreerd zijn in groepen.
-In individualistische culturen zin de banden tussen individuen los; er word verwacht dat iedereen voor zichzelf en zijn familie zorgt.
-In collectivistische culturen zijn mensen vaak vanaf de geboorte geintegreerd in groepen met een hoge cohesie, waarbij onvoorwaardelijke loyaliteit en steun word verwacht.
-Hofstede onderscheidde verschillende kenmerken van en individualistische en collectivistische cultuur.
+**Masculinity vs Feminity:**
+Dit verwijst naar de traditionele rollenverdeling tussen geslachten in en samenleving.
+Uit de gegevens van IBM, waarop Hofstede zijn model heeft gebaseerd, kwam naar voren dat mannen en vrouwen verschillende waarden hebben.
+Hofstede zag dat mannen meer zijn gericht op assertiviteit en competitiviteit (masculiniteit) en vrouwen meer zijn gericht op verzorgen en bescheidenheid (feminiteit).
+In Japan en de Verenigde Staten bijvoorbeeld, is masculiniteit hoog en in Nederland en Noorwegen just laag.
+
+**Induvidualism / Collectivism:**
+Individualisme is het tegenovergestelde van collectivisme. Deze dimensie gaat over de mate waarin mensen geïntegreerd zijn in groepen.
+
+• In individualistische culturen zijn de banden tussen personen los; er word verwacht dat iedereen voor zichzelf en zijn familie zorgt. Ook wordt er veel waarde gehecht aan het nastreven van persoonlijke wensen en doelen.
+
+• In collectivistische culturen zijn mensen vaak vanaf de geboorte onderdeel van groepen met een hoge mate van samenhang (cohesie), waarbij onvoorwaardelijke loyaliteit en steun word verwacht. In collectivistische culturen ligt de nadruk niet op de persoonlijke wensen en doelen, maar op de doelen en het welzijn van de groep waarbij iemand hoort.
+
+In landen met een meer individualistische cultuur zie je bijvoorbeeld dat studiekeuze vaak wordt gebaseerd op de persoonlijke interesse van iemand, terwijl in collectivistische culturen de studiekeuze vaak wordt gebaseerd op de behoefte van de groep waarbij iemand hoort.
 
 Verschillen tussen Nederland, VS, India en China:
 ![Nederland, VS, India en China](images/hofstede-NL-USA-IN-CH.png)
@@ -666,7 +664,11 @@ Shiraev, E. B., & Levy, D. A. (2017). Cross-Cultural psychology. Critical thinki
 Athena Summary. (2020). Culturele Psychologie: Samenvatting van de stof, Tilburg University. (TSB-TiU-007).
 
 ### 2.5.3 Voorbeelden van culturele verschillen die ik in mijn studie of leven heb ervaren. Hoe verklaar ik deze verschillen?
-
+In 2013 ben ik op maatschappelijke stage in Mongolië geweest. Ik heb daar toen twee weken engelse les gegeven aan kinderen in een weeshuis.
+Daarnaast hebben we ook leuke dingen gedaan met de kinderen daar en heb ik veel van het land gezien. In mongolie hebben ze een meer collectivistische cultuur dan in Nederland.
+Zelfs mensen die niets hebben helpen elkaar met de kleinste dingen. Buiten dat heeft mongolie ook een andere kant dat van het nomade-leven wat weer heel erg op zelfvoorzienend gericht is.
+Mongolië kent net als veel andere aziatische landen een hogre power distance en het is vaak onbeleefd om "nee" te zeggen.
+Het was een hele bijzondere ervaring om deze verschillen te ervaren en mee te nemen met mijn manier van leven.
 
 ### 2.5.4 Wat is mijn cultuur?
 ![nederland](images/hofstede-nederland.png)
