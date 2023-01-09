@@ -653,8 +653,11 @@ Verschillen tussen Nederland, VS, India en China:
 ![Nederland, VS, India en China](images/hofstede-NL-USA-IN-CH.png)
 
 https://www.hofstede-insights.com/country-comparison/
+
 Dimensionalizing Cultures: The Hofstede Model in Context. Hofstede, G. (2011).
+
 Shiraev, E. B., & Levy, D. A. (2017). Cross-Cultural psychology. Critical thinking and contemporary apllications (6th ed.). New York, NY: Routledge.
+
 Athena Summary. (2020). Culturele Psychologie: Samenvatting van de stof, Tilburg University. (TSB-TiU-007).
 
 ### 2.5.3 Voorbeelden van culturele verschillen die ik in mijn studie of leven heb ervaren. Hoe verklaar ik deze verschillen?
@@ -663,14 +666,13 @@ Athena Summary. (2020). Culturele Psychologie: Samenvatting van de stof, Tilburg
 ### 2.5.4 Wat is mijn cultuur?
 ![nederland](images/hofstede-nederland.png)
 
-[//]: # (### 2.5.5 Conclusie)
 
 </details>
 <br/>
 <details>
 <summary> <b>Ethiek en ICT</b></summary>
 
-### 2.5.6 Vraagstukken met betrekking tot softwareontwikkeling
+### 2.5.5 Vraagstukken met betrekking tot softwareontwikkeling
 Omdat ethiek een belangrijke factor is in de ontwikkeling van software en momenteel met de opruk van AI een veelbesroken topic is,
 heb ik de vraag: "Wat zijn ethische vraagstukken met betrekking tot softwareontwikkeling?" gesteld aan de gloednieuwe chat-AI (ChatGPT) van openAI.
 het antwoord van de chatbot was:
@@ -693,7 +695,7 @@ Toegang tot informatie: software kan worden gebruikt om toegang tot informatie t
 bijvoorbeeld door middel van beperkende licenties of digitale rechtenbeheersystemen.
 Het is de verantwoordelijkheid van de softwareontwikkelaar om ervoor te zorgen dat de software niet wordt gebruikt om toegang tot informatie te beperken of te verhinderen voor degenen die er recht op hebben."
 
-### 2.5.7 Conclusie
+### 2.5.6 Conclusie
 Zoals je ziet, is de technologie al erg ver. Deze chatbot opzich is al een entichse kwestie.
 Gaat de mens niet te ver met de onwikkeling van technoligische inlelligentie, waar houdt het op?
 
@@ -705,7 +707,7 @@ Een mooi voorbeeld is het groepsproject, een restaurant app gemaakt voor gemak e
 Maar het gemak komt ook met een prijs, namelijk dat er ook minder persooneel nodig zal zijn ik het restaurant.
 Onze applicatie zorgt dus indirect ook voor het feit dat mensen die nu een baan hebben deze kwijt gaan raken omdat ze overbodig zijn.
 
-### 2.5.8 Toepassingen in de applicatie
+### 2.5.7 Toepassingen in de applicatie
 <details>
 <summary><b>&nbsp;Individueel project (Chefresh)</b></summary>
 
