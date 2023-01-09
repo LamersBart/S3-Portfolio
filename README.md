@@ -80,6 +80,12 @@ Meer hierover heb ik beschreven in mijn onderzoek naar veiligheid.
 Om dit uit te zoeken heb ik onderzoek gedaan naar welke manieren er mogelijk zijn om mijn API zo goed mogelijk te beveiligen tegen ongeautoriseerde toegang.
 Middels dit onderzoek ben ik er achter gekomen dat er erg veel manieren zijn om een API beter te beveiligen.
 
+```
+DOT-Framework:
+- Community research
+- Best good and bad practices
+```
+
 ### 2.1.8 Welke manieren zijn er?
 Allereerst kwam ik in het onderzoek tegen dat en verschillende design principles zijn voor het bouwen van een API.
 Hierdoor kwam ik er achter dat ik een gedeelte van die principles al heb toegepast.
@@ -595,18 +601,76 @@ Houd rekening met: Pas je communicatie-, werk- en gedragsstijlen aan om projectb
 <details>
 <summary> <b>Culturele verschillen</b></summary>
 
-### 2.5.1 Wat zijn culturele verschillen?
+### 2.5.1 Wat is cultuur?
+Cultuur is een door de mens gemaakt sociaal construct.
+Het is een set van gedragingen, tradities, geschreven- en ongeschreven regels, symbolen, normen en waarden van een groep mensen.
+Per land, en zelfs per continent zijn er andere culturen.
+Een cultuur zegt ook iets over de identiteit van een persoon, de cultuur zorgt dat een persoon zich ook "thuis" voelt in zijn of haar land.
+Omdat een cultuur zoveel zegt over de identiteit van een persoon en zijn of haar kijk op de wereld is het belangrijk om rekeing te houden met andere culturen.
+Iets wat voor ons Nederlanders heel normaal is, hoeft voor een Japanner niet normaal te zijn.
 
-### 2.5.2 Welke invloed heeft dit in het werkveld?
+### 2.5.2 Wat zijn bekende dimensies van culturele verschillen?
 
-### 2.5.3 Conclusie
+```
+DOT-Framework:
+- Community research
+- Literature study
+```
+
+Er zijn verschillende theorieen over culturele verschillen zoals de hofstede theorie, ik ga hier dan ook verder op in.
+
+**Power Distance:**
+word gedefinieerd als de mate waarin minder machtige leden van organisaties of instituties (zoals familie) het accepteren en verwachten dat macht onevenredig verdeeld is.
+De aanname is dat het niveau van ongelikheid zowel door leiders als volgers word goedgekeurd.
+Er kan sprake zin van een kleine ofwel een grote power distance.
+• Een land met een kleine power distance word gekenmerkt door het gelijk behandelen van iedereen; oudere mensen worden nauwelilks gerespecteerd en kinderen worden behandeld als geliken. Op het gebied van de overheid geld de stem van de meerderheid en corruptie komt nauwelliks voor.
+• Een grote power distance kent just wel een hierarchische samenleving met ongelijkheid en corruptie. Ook gehoorzamen kinderen hun ouders in grotere mate en is er meer respect richting ouderen.
+
+**Uncertainty Avoidence:**
+of ook wel het vermijden van onzekere situaties, gaat over de manier waarop een samenleving omgaat met de tolerantie die zij hebben voor ambiguîteit.
+Het geeft een indicatie van in hoeverre leden van een samenleving zich (on)comfortabel voelen tegenover ongestructureerde situaties.
+Ongestructureerde situaties worden omschreven als nieuwe, niet bekende, verassende en anders dan normale situaties.
+Culturen die zich hier oncomfortabel bij voelen zullen deze situaties proberen te vermijden door strikte gedragscodes, wetgeving en regels.
+In culturen met en sterke uncertainty avoidance ziet men ook vaak dat men meer emotioneel is en gemotiveerd word door innerlijke angst.
+Het tegenovergestelde type is meer tolerant tegenover meningen van anderen. Hosted onderscheidde weer een zwakke en een sterke uncertainty avoidance in samenlevingen:
+• Bij een zwakke uncertainty avoidance word elke dag genomen zoals die komt, is er weinig stress/angst. Op het gebied van overheid worden inwoners gezien als competent tegenover autoriteiten.
+• Bij een sterke uncertainty avoidance word de onzekerheid in het leven gevoeld als een continue dreiging die aangevochten met worden, is er meer stress/angst. Op het gebied van overheid is er een emotionele behoefte aan regels, ook al worden deze niet nageleefd en worden de inwoners als incompetent gezien tegenover de autoriteiten.
+
+**Masculinity vs Feminity:** 
+verwist naar de rollenverdeling tussen gender in en samenleving.
+Uit de gegevens van IBM kwam naar voren dat mannen en vrowen andere warden hebben.
+Mannen zijn meer gericht op assertiviteit en competitiviteit en vrouwen zijn meer gericht op verzorgen en bescheidenheid.
+De assertieve poule word masculiniteit genoemd en de verzorgende poule feminisme.
+In Japan is bijvoorbeeld masculiniteit hoog en in Nederland just laag.
+
+**Induvilusm / Collectivism:**
+Individualisme is het tegenovergestelde van collectivisme en gat over de mate waarin mensen geïntegreerd zijn in groepen.
+In individualistische culturen zin de banden tussen individuen los; er word verwacht dat iedereen voor zichzelf en zijn familie zorgt.
+In collectivistische culturen zijn mensen vaak vanaf de geboorte geintegreerd in groepen met een hoge cohesie, waarbij onvoorwaardelijke loyaliteit en steun word verwacht.
+Hofstede onderscheidde verschillende kenmerken van en individualistische en collectivistische cultuur.
+
+Verschillen tussen Nederland, VS, India en China:
+![Nederland, VS, India en China](images/hofstede-NL-USA-IN-CH.png)
+
+https://www.hofstede-insights.com/country-comparison/
+Dimensionalizing Cultures: The Hofstede Model in Context. Hofstede, G. (2011).
+Shiraev, E. B., & Levy, D. A. (2017). Cross-Cultural psychology. Critical thinking and contemporary apllications (6th ed.). New York, NY: Routledge.
+Athena Summary. (2020). Culturele Psychologie: Samenvatting van de stof, Tilburg University. (TSB-TiU-007).
+
+### 2.5.3 Voorbeelden van culturele verschillen die ik in mijn studie of leven heb ervaren. Hoe verklaar ik deze verschillen?
+
+
+### 2.5.4 Wat is mijn cultuur?
+![nederland](images/hofstede-nederland.png)
+
+[//]: # (### 2.5.5 Conclusie)
 
 </details>
 <br/>
 <details>
 <summary> <b>Ethiek en ICT</b></summary>
 
-### 2.5.4 Vraagstukken met betrekking tot softwareontwikkeling
+### 2.5.6 Vraagstukken met betrekking tot softwareontwikkeling
 Omdat ethiek een belangrijke factor is in de ontwikkeling van software en momenteel met de opruk van AI een veelbesroken topic is,
 heb ik de vraag: "Wat zijn ethische vraagstukken met betrekking tot softwareontwikkeling?" gesteld aan de gloednieuwe chat-AI (ChatGPT) van openAI.
 het antwoord van de chatbot was:
@@ -629,7 +693,7 @@ Toegang tot informatie: software kan worden gebruikt om toegang tot informatie t
 bijvoorbeeld door middel van beperkende licenties of digitale rechtenbeheersystemen.
 Het is de verantwoordelijkheid van de softwareontwikkelaar om ervoor te zorgen dat de software niet wordt gebruikt om toegang tot informatie te beperken of te verhinderen voor degenen die er recht op hebben."
 
-### 2.5.5 Conclusie
+### 2.5.7 Conclusie
 Zoals je ziet, is de technologie al erg ver. Deze chatbot opzich is al een entichse kwestie.
 Gaat de mens niet te ver met de onwikkeling van technoligische inlelligentie, waar houdt het op?
 
@@ -641,7 +705,7 @@ Een mooi voorbeeld is het groepsproject, een restaurant app gemaakt voor gemak e
 Maar het gemak komt ook met een prijs, namelijk dat er ook minder persooneel nodig zal zijn ik het restaurant.
 Onze applicatie zorgt dus indirect ook voor het feit dat mensen die nu een baan hebben deze kwijt gaan raken omdat ze overbodig zijn.
 
-### 2.5.6 Toepassingen in de applicatie
+### 2.5.8 Toepassingen in de applicatie
 <details>
 <summary><b>&nbsp;Individueel project (Chefresh)</b></summary>
 
@@ -664,7 +728,7 @@ Met Ordinner moeten we vooral reking houden met de impact die de app heeft voor 
 Zo zullen er ontslagen vallen onder het barpersoneel omdat deze minder taken hoeven uit te voeren.
 En zal er sowiezo een verandring komen voor de werkzaamheden van het personeel wat wel blijft werken.
 
-Ook heb ik het formulier op canvas ingeveuld voor het groepsproject:
+Ook heb ik het formulier op canvas ingevuld voor het groepsproject:
 
 ![ethics](images/GP-ethics.png)
 
