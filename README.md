@@ -670,6 +670,9 @@ Zelfs mensen die niets hebben helpen elkaar met de kleinste dingen. Buiten dat h
 Mongolië kent net als veel andere aziatische landen een hogre power distance en het is vaak onbeleefd om "nee" te zeggen.
 Het was een hele bijzondere ervaring om deze verschillen te ervaren en mee te nemen met mijn manier van leven.
 
+![nederland-mongolie](images/Nederland-vs-Mongolie.png)
+*Data van mongolie is afkomstig van: https://www.ijtsrd.com/papers/ijtsrd31470.pdf
+
 ### 2.5.4 Wat is mijn cultuur?
 ![nederland](images/hofstede-nederland.png)
 
