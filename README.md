@@ -828,6 +828,50 @@ Daarnaast heb ik ook het design werk van Janine uitgevoerd tot een eindproduct, 
 
 ![Database diagram](images/GP-ordinner-database-diagram.png)
 
+### 2.6.6 Usability test
+Het groepsproject is onderworpen aan een usability test,
+dit houd in dat een gebruiker die nog onbekend is met de applicatie opdrachten gaat uitvoeren zonder daar hulp bij te krijgen.
+In het geval van het groepsproject hield dit in voor de order-frontend:
+* Inloggen (sessie starten)
+* Menu verkennen
+* Order plaatsen
+* Afrekenen
+
+En voor de keuken frondend:
+* Het verslepen van order items
+
+We hebben de test bij 2 mensen afgeomen.
+Een die al een keer een presentatie van ons heeft bijgewoont en een die nog niets van onze applicatie afwist.
+De feedback die we terug kregen was:
+* Inlog-knop kan worden aangeklikt ten alle tijden (grijs maken).
+* weinig feedback in app.
+* Ondanks eten werd verwijderd binnen een "order", wordt hij alsnog besteld.
+* Duidelijkheid in de navigatie (denk aan titels/namen).
+* Verder heel netjes.
+* Soort thuisbezorgd.
+* Alsof je bij een restaurant zit.
+* Wil keuken wel items slepen?
+* Klant krijgt geen feedback hoelang de bestelling nog duurt.
+* Navigatie balk onduidelijk of het knoppen zijn.
+
+Dit is erg duidelijke feedback, doordat we de app zelf gemaakt hebben was voor ons duidelijk welke knop een knop is en welke niet,
+na deze test zijn we er achter gekomen dat we dit dus moesten verduidelijken en dat hebben we ook gedaan.
+
+Ik ben aan de slag gegaan met de feedback te verwerken in de order-frond-end.
+Zo is er op de homepage de volgende melding toegevoegd als de verkeerde of zelfs geen table code wordt ingevoerd:
+
+![tablecode](images/Usability-test-tablecode.png)
+
+Vervolgens komt de gebruiker terrecht op een info-pagina voor meer info over de menu knoppen en zijn de menu knoppen voorzien van tekst:
+
+![info](images/Usability-test-Info.png)
+
+En zijn er meldingen ingebouwd om de flow zo goed mogelijk te optimaliseren, zowel op de order pagina als de payment pagina:
+
+![order](images/Usability-test-order.png)
+
+![payment](images/Usability-test-payment.png)
+
 </details>
 
 [⬆️ Terug naar inhoudsopgave](#inhoudsopgave)
