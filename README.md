@@ -277,6 +277,12 @@ Na het schrijven van een eerste simpele test, de homepage inladen liep ik meteen
 Dit komt omdat ik de homepage en navbar aan wil passen op basis van de ingelogde gebruiker, maar als een gebruiker nog niet is ingelogd kan de fornt-end deze data niet op halen uit de backend.
 Dit zorgt dus voor problemen. Om dit op te lossen heb ik een 'sub'-navbar en homepage gemaakt die worden ingeladen zolang een user nog niet is ingelogd.
 
+Daarnaast heb ik ook nog een test gemaakt om de CRUD te testen van mijn applicatie, aangezien dit het belangrijkste gedeelte van mijn applicatie is.
+Ik heb één test gemaakt om dit aan te tonen, omdat al mijn "pagina's" dezelfde CRUD-acties bevatten. 
+Hieronder een GIF:
+
+![cypress-opname.gif](images/cypress-opname.gif)
+
 </details>
 <br/>
 <details>
